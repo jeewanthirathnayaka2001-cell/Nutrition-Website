@@ -1,0 +1,52 @@
+/* Adding image fallbacks to styles.css since image generation failed */
+
+.no-image-fallback {
+    background: linear-gradient(135deg, var(--primary-blue), var(--bio-green));
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.no-image-fallback::after {
+    content: "Image Placeholder";
+    color: rgba(255,255,255,0.7);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.hero {
+    background: linear-gradient(135deg, rgba(10, 88, 202, 0.9) 0%, rgba(25, 135, 84, 0.8) 100%), url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop') center/cover no-repeat;
+    background-color: var(--primary-blue);
+}
+
+.category-img-container {
+    background: linear-gradient(45deg, #f8f9fa, #e9ecef);
+    position: relative;
+}
+
+/* Fallback icons instead of images for categories if images are broken */
+.category-img-container::before {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    font-size: 4rem;
+    color: var(--primary-blue);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+.category-card:nth-child(1) .category-img-container::before { content: "\f0c3"; } /* Flask for Preservatives */
+.category-card:nth-child(2) .category-img-container::before { content: "\f043"; } /* Tint for Emulsifiers */
+.category-card:nth-child(3) .category-img-container::before { content: "\f5eb"; } /* Apple for Antioxidants */
+.category-card:nth-child(4) .category-img-container::before { content: "\f53f"; } /* Palette for Colours */
+.category-card:nth-child(5) .category-img-container::before { content: "\f121"; } /* Code/Structure for Stabilizers */
+
+.category-img-container img {
+    position: relative;
+    z-index: 1;
+    /* If the image errors out, we hide it and show the fallback background */
+}
