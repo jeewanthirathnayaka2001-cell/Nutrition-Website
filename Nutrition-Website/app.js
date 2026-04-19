@@ -93,7 +93,7 @@ function renderHome() {
                     <!-- Preservatives -->
                     <div class="glass-card category-card" onclick="window.location.hash='database'; state.selectedCategory='Preservative';">
                         <div class="category-img">
-                            <img src="https://images.unsplash.com/photo-1481349518771-20055b2a7b24?auto=format&fit=crop&q=80&w=800" alt="Preservatives">
+                            <img src="images/categories/preservatives.jpeg" alt="Preservatives">
                             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4));"></div>
                         </div>
                         <div class="category-content">
@@ -105,7 +105,7 @@ function renderHome() {
                     <!-- Emulsifiers -->
                     <div class="glass-card category-card" onclick="window.location.hash='database'; state.selectedCategory='Emulsifier';">
                         <div class="category-img">
-                            <img src="https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=800" alt="Emulsifiers">
+                            <img src="images/categories/preservatives.jpeg" alt="Emulsifiers">
                             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4));"></div>
                         </div>
                         <div class="category-content">
@@ -117,7 +117,7 @@ function renderHome() {
                     <!-- Antioxidants -->
                     <div class="glass-card category-card" onclick="window.location.hash='database'; state.selectedCategory='Antioxidant';">
                         <div class="category-img">
-                            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800" alt="Antioxidants">
+                            <img src="images/categories/preservatives.jpeg" alt="Antioxidants">
                             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4));"></div>
                         </div>
                         <div class="category-content">
@@ -129,7 +129,7 @@ function renderHome() {
                     <!-- Colours -->
                     <div class="glass-card category-card" onclick="window.location.hash='database'; state.selectedCategory='Colour';">
                         <div class="category-img">
-                            <img src="https://images.unsplash.com/photo-1502759683299-cdcd6974244f?auto=format&fit=crop&q=80&w=800" alt="Colours">
+                            <img src="images/categories/preservatives.jpeg" alt="Colours">
                             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4));"></div>
                         </div>
                         <div class="category-content">
@@ -141,7 +141,7 @@ function renderHome() {
                     <!-- Stabilizers -->
                     <div class="glass-card category-card" onclick="window.location.hash='database'; state.selectedCategory='Stabilizer';">
                         <div class="category-img">
-                            <img src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&q=80&w=800" alt="Stabilizers">
+                            <img src="images/categories/preservatives.jpeg" alt="Stabilizers">
                             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4));"></div>
                         </div>
                         <div class="category-content">

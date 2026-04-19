@@ -1,7 +1,10 @@
+const DEFAULT_INGREDIENT_IMAGE = "images/ingredients/sample-ingredient.jpg";
+
 const ingredientsData = [
     // --- PRESERVATIVES ---
     {
         name: "Sodium Metabisulfite (SMS / SMBS)",
+        image: "images/ingredients/sample-ingredient.jpg",
         ins: "E223",
         functionalClass: "1. Preservative, 2. Antioxidant, 3. Bleaching agent / Flour treatment agent",
         permittedCategories: "1. Dried fruits and vegetables, 2. Wines, ciders, 3. Crustaceans, 4. Fruit juices",

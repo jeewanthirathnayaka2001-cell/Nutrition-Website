@@ -327,6 +327,97 @@ h1, h2, h3, h4, .logo p {
     vertical-align: middle;
 }
 
+.image-button {
+    border: none;
+    border-radius: 999px;
+    padding: 10px 16px;
+    background: linear-gradient(135deg, var(--primary-blue), var(--bio-green));
+    color: white;
+    font-weight: 700;
+    font-size: 0.8rem;
+    cursor: pointer;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.image-button:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.ingredient-modal {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: rgba(15, 23, 42, 0.72);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.25s ease, visibility 0.25s ease;
+    z-index: 2000;
+}
+
+.ingredient-modal.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.ingredient-modal__backdrop {
+    position: absolute;
+    inset: 0;
+}
+
+.ingredient-modal__dialog {
+    position: relative;
+    z-index: 1;
+    width: min(92vw, 900px);
+    max-height: 88vh;
+    overflow: auto;
+    background: white;
+    border-radius: 24px;
+    padding: 24px;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+}
+
+.ingredient-modal__title {
+    margin-bottom: 16px;
+    padding-right: 44px;
+    color: var(--primary-blue);
+    font-size: 1.4rem;
+}
+
+.ingredient-modal__close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: #f1f3f5;
+    color: var(--text-dark);
+    font-size: 1.5rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.ingredient-modal__image {
+    display: block;
+    width: 100%;
+    max-height: 70vh;
+    object-fit: contain;
+    border-radius: 18px;
+    background: #f8f9fa;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
 .data-table tr:hover {
     background: #f9fbff;
 }

@@ -10,6 +10,7 @@ const state = {
 };
 
 const appContent = document.getElementById('appContent');
+const fallbackIngredientImage = DEFAULT_INGREDIENT_IMAGE;
 
 // --- ROUTER ---
 function init() {
@@ -105,7 +106,7 @@ function renderHome() {
                     <!-- Emulsifiers -->
                     <div class="glass-card category-card" onclick="window.location.hash='database'; state.selectedCategory='Emulsifier';">
                         <div class="category-img">
-                            <img src="https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=800" alt="Emulsifiers">
+                            <img src="images/categories/preservatives.jpeg" alt="Emulsifiers">
                             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4));"></div>
                         </div>
                         <div class="category-content">
@@ -117,7 +118,7 @@ function renderHome() {
                     <!-- Antioxidants -->
                     <div class="glass-card category-card" onclick="window.location.hash='database'; state.selectedCategory='Antioxidant';">
                         <div class="category-img">
-                            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800" alt="Antioxidants">
+                            <img src="images/categories/preservatives.jpeg" alt="Antioxidants">
                             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4));"></div>
                         </div>
                         <div class="category-content">
@@ -129,7 +130,7 @@ function renderHome() {
                     <!-- Colours -->
                     <div class="glass-card category-card" onclick="window.location.hash='database'; state.selectedCategory='Colour';">
                         <div class="category-img">
-                            <img src="https://images.unsplash.com/photo-1502759683299-cdcd6974244f?auto=format&fit=crop&q=80&w=800" alt="Colours">
+                            <img src="images/categories/preservatives.jpeg" alt="Colours">
                             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4));"></div>
                         </div>
                         <div class="category-content">
@@ -141,7 +142,7 @@ function renderHome() {
                     <!-- Stabilizers -->
                     <div class="glass-card category-card" onclick="window.location.hash='database'; state.selectedCategory='Stabilizer';">
                         <div class="category-img">
-                            <img src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&q=80&w=800" alt="Stabilizers">
+                            <img src="images/categories/preservatives.jpeg" alt="Stabilizers">
                             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4));"></div>
                         </div>
                         <div class="category-content">
@@ -208,6 +209,7 @@ function renderAbout() {
 }
 
 function renderDatabase() {
+    document.body.classList.remove('modal-open');
     appContent.innerHTML = `
         <section class="database-header animate-fade-in" style="background: linear-gradient(135deg, rgba(13, 110, 253, 0.9), rgba(25, 135, 84, 0.9)), url('https://images.unsplash.com/photo-1532187875605-1ef6c237f1f6?auto=format&fit=crop&q=80&w=2000') center/cover; background-blend-mode: overlay;">
             <div class="container">
@@ -246,6 +248,7 @@ function renderDatabase() {
                                 <th>Function</th>
                                 <th style="min-width: 250px;">Permitted Categories</th>
                                 <th style="min-width: 200px;">MPL Details</th>
+                                <th>Image</th>
                                 <th>Last Updated</th>
                             </tr>
                         </thead>
@@ -256,6 +259,15 @@ function renderDatabase() {
                 </div>
             </div>
         </section>
+
+        <div id="ingredientImageModal" class="ingredient-modal" aria-hidden="true">
+            <div class="ingredient-modal__backdrop" data-close-modal></div>
+            <div class="ingredient-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="ingredientImageTitle">
+                <button type="button" class="ingredient-modal__close" aria-label="Close image preview" data-close-modal>&times;</button>
+                <h3 id="ingredientImageTitle" class="ingredient-modal__title">Ingredient Image</h3>
+                <img id="ingredientImagePreview" class="ingredient-modal__image" src="${fallbackIngredientImage}" alt="Ingredient preview">
+            </div>
+        </div>
     `;
     
     document.getElementById('categoryFilter').addEventListener('change', (e) => {
@@ -267,6 +279,19 @@ function renderDatabase() {
         state.searchQuery = e.target.value;
         updateTable();
     });
+
+    const modal = document.getElementById('ingredientImageModal');
+    modal.querySelectorAll('[data-close-modal]').forEach((element) => {
+        element.addEventListener('click', closeIngredientImage);
+    });
+    modal.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            closeIngredientImage();
+        }
+    });
+
+    document.removeEventListener('keydown', handleIngredientModalKeydown);
+    document.addEventListener('keydown', handleIngredientModalKeydown);
     
     updateTable();
 }
@@ -499,13 +524,16 @@ function updateTable() {
     });
     
     if (filtered.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="6" class="text-center" style="padding: 60px; color: var(--text-muted);">No additives found matching your search.</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="7" class="text-center" style="padding: 60px; color: var(--text-muted);">No additives found matching your search.</td></tr>';
         return;
     }
     
     tbody.innerHTML = filtered.map(item => {
         const badgeClass = getBadgeClass(item.functionalClass);
         const functionalShort = item.functionalClass.split(/[,.]/)[0].replace(/\d+/, '').trim();
+        const imageSrc = typeof item.image === 'string' && item.image.trim()
+            ? item.image.trim()
+            : fallbackIngredientImage;
         
         return `
             <tr>
@@ -517,10 +545,43 @@ function updateTable() {
                     <strong>${item.mplDetails}</strong><br>
                     <small style="color: #888;">Unit: ${item.unit}</small>
                 </td>
+                <td>
+                    <button type="button" class="image-button" onclick='openIngredientImage(${JSON.stringify(imageSrc)}, ${JSON.stringify(item.name)})'>View Image</button>
+                </td>
                 <td style="font-size: 0.8rem; color: #666;">${item.lastUpdated}</td>
             </tr>
         `;
     }).join('');
+}
+
+function openIngredientImage(imageSrc, ingredientName) {
+    const modal = document.getElementById('ingredientImageModal');
+    const image = document.getElementById('ingredientImagePreview');
+    const title = document.getElementById('ingredientImageTitle');
+
+    if (!modal || !image || !title) return;
+
+    image.src = imageSrc || fallbackIngredientImage;
+    image.alt = ingredientName ? `${ingredientName} image` : 'Ingredient preview';
+    title.textContent = ingredientName || 'Ingredient Image';
+    modal.classList.add('active');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('modal-open');
+}
+
+function closeIngredientImage() {
+    const modal = document.getElementById('ingredientImageModal');
+    document.body.classList.remove('modal-open');
+    if (!modal) return;
+
+    modal.classList.remove('active');
+    modal.setAttribute('aria-hidden', 'true');
+}
+
+function handleIngredientModalKeydown(event) {
+    if (event.key === 'Escape') {
+        closeIngredientImage();
+    }
 }
 
 // Mobile Menu Toggle
