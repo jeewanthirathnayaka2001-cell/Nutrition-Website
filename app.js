@@ -93,7 +93,7 @@ function renderHome() {
                     <!-- Preservatives -->
                     <div class="glass-card category-card" onclick="window.location.hash='database'; state.selectedCategory='Preservative';">
                         <div class="category-img">
-                            <img src="https://images.unsplash.com/photo-1481349518771-20055b2a7b24?auto=format&fit=crop&q=80&w=800" alt="Preservatives">
+                            <img src="images/categories/preservatives.jpeg" alt="Preservatives">
                             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4));"></div>
                         </div>
                         <div class="category-content">
