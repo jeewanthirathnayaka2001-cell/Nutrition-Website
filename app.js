@@ -106,7 +106,7 @@ function renderHome() {
                     <!-- Emulsifiers -->
                     <div class="glass-card category-card" onclick="window.location.hash='database'; state.selectedCategory='Emulsifier';">
                         <div class="category-img">
-                            <img src="images/categories/preservatives.jpeg" alt="Emulsifiers">
+                            <img src="images/categories/emulsifiers.jpg" alt="Emulsifiers">
                             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4));"></div>
                         </div>
                         <div class="category-content">
@@ -118,7 +118,7 @@ function renderHome() {
                     <!-- Antioxidants -->
                     <div class="glass-card category-card" onclick="window.location.hash='database'; state.selectedCategory='Antioxidant';">
                         <div class="category-img">
-                            <img src="images/categories/preservatives.jpeg" alt="Antioxidants">
+                            <img src="images/categories/antioxident.jpg" alt="Antioxidants">
                             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4));"></div>
                         </div>
                         <div class="category-content">

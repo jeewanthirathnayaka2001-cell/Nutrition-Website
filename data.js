@@ -4,7 +4,7 @@ const ingredientsData = [
     // --- PRESERVATIVES ---
     {
         name: "Sodium Metabisulfite (SMS / SMBS)",
-        image: "images/ingredients/sample-ingredient.jpg",
+        image: "images/ingredients/sodium_benzoate.jpg",
         ins: "E223",
         functionalClass: "1. Preservative, 2. Antioxidant, 3. Bleaching agent / Flour treatment agent",
         permittedCategories: "1. Dried fruits and vegetables, 2. Wines, ciders, 3. Crustaceans, 4. Fruit juices",
@@ -17,6 +17,7 @@ const ingredientsData = [
     },
     {
         name: "Sodium Benzoate",
+        image: "images/ingredients/sodium_benzoate.jpg",
         ins: "E211",
         functionalClass: "Preservative",
         permittedCategories: "1. Liquid egg product, 2. Vegetable pulp/preparations, 3. Semi-preserved fish, 4. Food supplements, 5. Fat spreads/flavoured milks, 6. Fruit preparations, 7. Water-based flavoured drinks, 8. Wines & vinegars",
@@ -29,6 +30,7 @@ const ingredientsData = [
     },
     {
         name: "Potassium Sorbate",
+        image: "images/ingredients/potassium.jpeg",
         ins: "E202",
         functionalClass: "Preservative",
         permittedCategories: "1. Vegetable purees/spreads, 2. Water-based drinks, 3. Whey cheeses, 4. Fruit preparations/nuts/bakery, 5. Alcoholic beverages, 6. Meat products (surface)",
@@ -41,6 +43,7 @@ const ingredientsData = [
     },
     {
         name: "Sorbic Acid",
+        image: "images/ingredients/sodium_benzoate.jpg",
         ins: "E200",
         functionalClass: "Preservative",
         permittedCategories: "1. Liquid egg, 2. Whey protein cheese, 3. Confectionery (non-chocolate), 4. Drinks, 5. Fruit juice, 6. Cooked fish, 7. Poultry/meat surface, 8. Baked goods, 9. Salads, 10. Sauces/Soups",
@@ -53,6 +56,7 @@ const ingredientsData = [
     },
     {
         name: "Sodium Nitrite",
+        image: "images/ingredients/sodium_benzoate.jpg",
         ins: "E250",
         functionalClass: "Preservative & colour-fixing agent",
         permittedCategories: "1. Cured non-heat treated meat, 2. Cured heat-treated meat, 3. Smoked/dried fish",
@@ -65,6 +69,7 @@ const ingredientsData = [
     },
     {
         name: "Sodium Nitrate",
+        image: "images/ingredients/sodium_benzoate.jpg",
         ins: "E251",
         functionalClass: "Preservative & colour-fixing agent",
         permittedCategories: "1. Cured non-heat treated meat, 2. Cured heat-treated meat, 3. Ripened cheese, 4. Pickled/cured fish",
@@ -77,6 +82,7 @@ const ingredientsData = [
     },
     {
         name: "Propionic Acid",
+        image: "images/ingredients/sodium_benzoate.jpg",
         ins: "E280",
         functionalClass: "Preservative",
         permittedCategories: "1. Bakery wares, 2. Cheese, 3. Grain products, 4. Animal feeds",
@@ -89,6 +95,7 @@ const ingredientsData = [
     },
     {
         name: "Sulfur Dioxide",
+        image: "images/ingredients/sodium_benzoate.jpg",
         ins: "E220",
         functionalClass: "Preservative, Antioxidant, Bleaching agent",
         permittedCategories: "1. Dried fruits/veg, 2. Wines, ciders, 3. Fruit juices, 4. Herbs and spices",
