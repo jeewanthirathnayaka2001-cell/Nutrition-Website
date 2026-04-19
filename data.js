@@ -108,6 +108,7 @@ const ingredientsData = [
     },
     {
         name: "Potassium Metabisulfite",
+        image: "images/ingredients/sodium_benzoate.jpg",
         ins: "E224",
         functionalClass: "Preservative, Antioxidant, Bleaching agent",
         permittedCategories: "1. Wines, ciders, meads, 2. Fruit juices, 3. Dried fruits, 4. Beer",
