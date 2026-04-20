@@ -130,7 +130,7 @@ function renderHome() {
                     <!-- Colours -->
                     <div class="glass-card category-card" onclick="window.location.hash='database'; state.selectedCategory='Colour';">
                         <div class="category-img">
-                            <img src="images/categories/preservatives.jpeg" alt="Colours">
+                            <img src="images/categories/colours.jpg" alt="Colours">
                             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4));"></div>
                         </div>
                         <div class="category-content">
@@ -142,7 +142,7 @@ function renderHome() {
                     <!-- Stabilizers -->
                     <div class="glass-card category-card" onclick="window.location.hash='database'; state.selectedCategory='Stabilizer';">
                         <div class="category-img">
-                            <img src="images/categories/preservatives.jpeg" alt="Stabilizers">
+                            <img src="images/categories/Stabilizers.jpg" alt="Stabilizers">
                             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4));"></div>
                         </div>
                         <div class="category-content">
