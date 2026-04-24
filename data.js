@@ -17,7 +17,7 @@ const ingredientsData = [
     },
     {
         name: "Sodium Benzoate",
-        image: "images/ingredients/Sodium_Benzoate.jpg",
+        image: "images/ingredients/Sodium-Benzoate.jpg",
         ins: "E211",
         functionalClass: "Preservative",
         permittedCategories: "1. Liquid egg product, 2. Vegetable pulp/preparations, 3. Semi-preserved fish, 4. Food supplements, 5. Fat spreads/flavoured milks, 6. Fruit preparations, 7. Water-based flavoured drinks, 8. Wines & vinegars",
