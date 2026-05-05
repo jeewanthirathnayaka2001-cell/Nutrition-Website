@@ -557,6 +557,13 @@ body.modal-open {
     margin-bottom: 10px;
 }
 
+.footer-logo {
+    width: 120px;
+    max-width: 100%;
+    margin-top: 12px;
+    display: block;
+}
+
 /* Utility Animations */
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
