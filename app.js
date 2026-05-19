@@ -248,6 +248,10 @@ function renderDatabase() {
                                 <th>Function</th>
                                 <th style="min-width: 250px;">Permitted Categories</th>
                                 <th style="min-width: 200px;">MPL Details</th>
+                                <th style="min-width: 220px;">Regulatory source</th>
+                                <th style="min-width: 260px;">Notes / restrictions</th>
+                                <th style="min-width: 220px;">Side effects</th>
+                                <th style="min-width: 220px;">Concerns</th>
                                 <th>Image</th>
                                 <th>Last Updated</th>
                             </tr>
@@ -524,7 +528,7 @@ function updateTable() {
     });
     
     if (filtered.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="7" class="text-center" style="padding: 60px; color: var(--text-muted);">No additives found matching your search.</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="11" class="text-center" style="padding: 60px; color: var(--text-muted);">No additives found matching your search.</td></tr>';
         return;
     }
     
@@ -545,6 +549,10 @@ function updateTable() {
                     <strong>${item.mplDetails}</strong><br>
                     <small style="color: #888;">Unit: ${item.unit}</small>
                 </td>
+                <td style="font-size: 0.85rem; max-width: 320px;">${item.regulatorySourceDetailed || item.regulatorySource || '-'}</td>
+                <td style="font-size: 0.85rem; max-width: 360px;">${item.notesRestrictions || item.notes || '-'}</td>
+                <td style="font-size: 0.85rem; max-width: 300px;">${item.sideEffects || '-'}</td>
+                <td style="font-size: 0.85rem; max-width: 300px;">${item.concerns || '-'}</td>
                 <td>
                     <button type="button" class="image-button" onclick='openIngredientImage(${JSON.stringify(imageSrc)}, ${JSON.stringify(item.name)})'>View Image</button>
                 </td>

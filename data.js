@@ -13,6 +13,10 @@ const ingredientsData = [
         unit: "mg/kg or mg/L",
         regulatorySource: "Codex GSFA, JECFA, EU 1333/2008, FDA CFR, Sri Lanka Regs",
         notes: "Allergen Labeling required if >10mg/kg. Prohibited in Vit B1 sources. Measured as Total SO2.",
+        regulatorySourceDetailed: "1. Codex Alimentarius (GSFA): Regulates permitted uses under INS 223, evaluated collectively with other sulfites. 2. FAO / WHO (JECFA): Provides the safety evaluation for the sulfite group. 3. EU Regulation (EC) No 1333/2008: Permitted under Annex II. 4. US FDA CFR: 21 CFR § 182.3766 (Categorized as GRAS when used under good manufacturing practices, subject to strict prohibitions). 5. Sri Lanka Food (Preservatives) Regulations: Governed under national schedules referencing international Codex limits for sulfites.",
+        notesRestrictions: "1. Allergen Labeling (Critical): Mandatory declaration is required in almost all global jurisdictions (EU, FDA, Sri Lanka) if total residual sulfites exceed 10 mg/kg (or 10 ppm). 2. Vitamin B1 Prohibition: The FDA explicitly prohibits the use of sulfites in foods recognized as a major source of Vitamin B1 (thiamine) because it destroys the vitamin. It is also prohibited on raw fresh produce and fresh meats. 3. ADI / Safety: JECFA established a group Acceptable Daily Intake (ADI) of 0 - 0.7 mg/kg body weight per day (expressed as sulfur dioxide). 4. Measurement: Efficacy and regulatory compliance are measured analytically as Total SO2 rather than the physical weight of the powder added to the hopper.",
+        sideEffects: "1. Allergic reactions: Can trigger severe sulfite sensitivity, particularly in individuals with asthma, leading to wheezing or chest tightness.",
+        concerns: "1. Sulfite sensitivity: A significant portion of the population (especially those with asthma) cannot properly metabolize sulfites, leading to severe adverse reactions.",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -26,6 +30,10 @@ const ingredientsData = [
         unit: "mg/kg (ppm) and % (FDA)",
         regulatorySource: "Codex GSFA, JECFA, EU 1333/2008, FDA CFR, Sri Lanka",
         notes: "Effective in acidic foods (pH < 4.5). Risk of benzene with ascorbic acid. ADI: 0–5 mg/kg bw.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025"
     },
     {
@@ -39,6 +47,10 @@ const ingredientsData = [
         unit: "mg/kg (ppm) / %",
         regulatorySource: "Codex GSFA, JECFA, EU 1333/2008, FDA CFR, Sri Lanka",
         notes: "Effective below pH 6.5. Regulated as group with Sorbic Acid (E200). ADI guides MPLs.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025"
     },
     {
@@ -52,6 +64,10 @@ const ingredientsData = [
         unit: "mg/kg / %",
         regulatorySource: "Codex GSFA, JECFA, EU 1333/2008, FDA CFR, Sri Lanka",
         notes: "Effective at acidic pH. Group ADI: 11 mg/kg bw/day. EU recently updated conditions.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025"
     },
     {
@@ -65,6 +81,10 @@ const ingredientsData = [
         unit: "mg/kg / ppm",
         regulatorySource: "Codex GSFA, JECFA, EU, FDA, Sri Lanka",
         notes: "Nitrosamine Risk. Used with Ascorbic Acid to inhibit nitrosamines. Sold as curing salt mix.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025"
     },
     {
@@ -78,6 +98,10 @@ const ingredientsData = [
         unit: "mg/kg / ppm",
         regulatorySource: "Codex GSFA, JECFA, EU, FDA, Sri Lanka",
         notes: "Slow-acting; converts to Nitrite. Prevents 'late blowing' in cheeses.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025"
     },
     {
@@ -91,6 +115,10 @@ const ingredientsData = [
         unit: "mg/kg / GMP",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Strong pungent odor. Commonly used as salts (calcium/sodium propionate). ADI: 'not limited'.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -104,6 +132,10 @@ const ingredientsData = [
         unit: "mg/kg / ppm",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Severe allergen. Prohibited in Vit B1 sources and fresh produce. Measured as total SO2.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -117,6 +149,10 @@ const ingredientsData = [
         unit: "mg/kg / ppm",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Preferred for winemaking to avoid sodium. Mandated allergen declaration if >10mg/kg.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -130,6 +166,10 @@ const ingredientsData = [
         unit: "mg/kg / ppm",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Prohibited on raw fresh produce and meats. Destroys Vitamin B1.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -143,6 +183,10 @@ const ingredientsData = [
         unit: "mg/kg / ppm / mg/dm²",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Targets only fungi. Insoluble, stays on surface. EU depth rule: <5mm penetration.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -156,6 +200,10 @@ const ingredientsData = [
         unit: "mg/kg / ppm",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Bacteriocin from L. lactis. Stable at acidic pH and heat. No effect on yeast/molds.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -169,6 +217,10 @@ const ingredientsData = [
         unit: "mg/kg / %",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "EU banned Propylparaben (E216/217) in 2006. Industry shift towards paraben-free.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -182,6 +234,10 @@ const ingredientsData = [
         unit: "GMP / %",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Lowers pH. Naturally self-limiting due to odor/taste. ADI: 'not limited'.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -195,6 +251,10 @@ const ingredientsData = [
         unit: "GMP / %",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Smooth tartness. I-isomer restriction for infants. Natural metabolic intermediate.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -208,6 +268,10 @@ const ingredientsData = [
         unit: "mg/kg / mg/L",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Hydrolyzes in 2-4 hours; zero residue. Toxic in pure form, needs closed-loop dosing.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025 / 2026"
     },
 
@@ -223,6 +287,10 @@ const ingredientsData = [
         unit: "GMP / %",
         regulatorySource: "Codex GSFA, JECFA, EU, FDA, Sri Lanka",
         notes: "Risk of benzene with Sodium Benzoate. Inhibits nitrosamines in cured meats.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -236,6 +304,10 @@ const ingredientsData = [
         unit: "GMP / %",
         regulatorySource: "Codex GSFA, JECFA, EU, FDA, Sri Lanka",
         notes: "Curing accelerator; non-acidic. Preferable where pH stability is required.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -249,6 +321,10 @@ const ingredientsData = [
         unit: "mg/kg / %",
         regulatorySource: "Codex GSFA, JECFA, EU, FDA, Sri Lanka",
         notes: "Free radical scavengers. Natural 'clean label' choice. Synergistic with Vitamin C.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -262,6 +338,10 @@ const ingredientsData = [
         unit: "mg/kg / %",
         regulatorySource: "Codex GSFA, JECFA, EU 1333/2008, FDA, Sri Lanka",
         notes: "Synthetic phenolic. High heat stability. Synergistic with BHT. Under scrutiny (Prop 65).",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -275,6 +355,10 @@ const ingredientsData = [
         unit: "mg/kg / %",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Prevents oxidative rancidity. Effective for baked/fried goods. Usually paired with BHA.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -288,6 +372,10 @@ const ingredientsData = [
         unit: "mg/kg / %",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Industry standard for deep-frying. Exceptional heat stability. Avoid with Propyl Gallate.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -301,6 +389,10 @@ const ingredientsData = [
         unit: "mg/kg / ppm",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Chelating agent. Prevents benzene formation in drinks. Preferred over Disodium EDTA.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2025 / 2026"
     },
 
@@ -316,6 +408,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA Table 3, EU 1333/2008, SL Regs",
         notes: "Natural yellow (Turmeric); GMP in most categories.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "14-Nov-25"
     },
     {
@@ -329,6 +425,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA Table 3, FDA 21 CFR §73.450, SL Regs",
         notes: "Vitamin B2 source; Highly heat stable.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "14-Nov-25"
     },
     {
@@ -342,6 +442,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, FDA §74.705, SL Regs",
         notes: "Synthetic (Yellow 5); EU warning label required.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Mar-26"
     },
     {
@@ -355,6 +459,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, EU, SL Regs",
         notes: "Banned in USA/Canada; Restricted in EU.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "7-Jan-26"
     },
     {
@@ -368,6 +476,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, FDA §74.706, SL Regs",
         notes: "Synthetic (Yellow 6); Link to hyperactivity.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Mar-26"
     },
     {
@@ -381,6 +493,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, EU, SL Regs",
         notes: "Azorubine; Synthetic red; Not permitted in US.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "14-Jan-11"
     },
     {
@@ -394,6 +510,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, EU, SL Regs",
         notes: "Cochineal Red A; Synthetic azo dye.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "14-Jan-11"
     },
     {
@@ -407,6 +527,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, FDA §74.303, SL Regs",
         notes: "Synthetic (Red 3); Iodine containing colour.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Mar-26"
     },
     {
@@ -420,6 +544,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, FDA §74.340, SL Regs",
         notes: "Synthetic (Red 40); Widely used in US.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Mar-26"
     },
     {
@@ -433,6 +561,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, FDA §74.102, SL Regs",
         notes: "Indigo Carmine (Blue 2); Synthetic dye.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Mar-26"
     },
     {
@@ -446,6 +578,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, FDA §74.101, SL Regs",
         notes: "Synthetic (Blue 1); Very stable colour.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Mar-26"
     },
     {
@@ -459,6 +595,10 @@ const ingredientsData = [
         unit: "-",
         regulatorySource: "GSFA Table 3, EU 1333/2008, SL Regs",
         notes: "Natural green from plants; Generally safe (GMP).",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Jul-25"
     },
     {
@@ -472,6 +612,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, FDA §73.125, SL Regs",
         notes: "Na/K salts of copper complex; High light stability.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Jul-25"
     },
     {
@@ -485,6 +629,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, FDA §74.1203, SL Regs",
         notes: "FD&C Green No. 3; Banned in EU/UK.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Mar-26"
     },
     {
@@ -498,6 +646,10 @@ const ingredientsData = [
         unit: "-",
         regulatorySource: "GSFA Table 3, FDA §73.85, SL Regs",
         notes: "Class I Caramel; No ammonia/sulfite used.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Mar-26"
     },
     {
@@ -511,6 +663,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, EU, SL Regs",
         notes: "Class III Caramel; Complex brown hue.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Jul-25"
     },
     {
@@ -524,6 +680,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, EU 1333/2008",
         notes: "Black PN; Synthetic; Not permitted in US.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Jul-25"
     },
     {
@@ -537,6 +697,10 @@ const ingredientsData = [
         unit: "-",
         regulatorySource: "GSFA Table 3, EU 1333/2008",
         notes: "Activated charcoal; Banned in US as food colour.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Jul-25"
     },
     {
@@ -550,6 +714,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, EU 1333/2008",
         notes: "Chocolate Brown HT; Synthetic azo dye.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Jul-25"
     },
     {
@@ -563,6 +731,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, FDA §73.95, SL Regs",
         notes: "Provitamin A source; Natural orange/yellow.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Mar-26"
     },
     {
@@ -576,6 +748,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, FDA §73.30, SL Regs",
         notes: "Natural seeds extract; Solvent-based extraction.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Mar-26"
     },
     {
@@ -589,6 +765,10 @@ const ingredientsData = [
         unit: "-",
         regulatorySource: "GSFA Table 3, FDA §73.340, SL Regs",
         notes: "Natural red pigment; Contains Capsanthin.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Mar-26"
     },
     {
@@ -602,6 +782,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, EU, FDA §73.585",
         notes: "Tomato-like red hue; High antioxidant capacity.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Mar-26"
     },
     {
@@ -615,6 +799,10 @@ const ingredientsData = [
         unit: "-",
         regulatorySource: "GSFA Table 3, FDA §73.40, SL Regs",
         notes: "Betanin from beets; pH and heat sensitive.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Mar-26"
     },
     {
@@ -628,6 +816,10 @@ const ingredientsData = [
         unit: "-",
         regulatorySource: "GSFA Table 3, FDA §73.170, SL Regs",
         notes: "From grape skins/veg; pH sensitive (red-blue).",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Mar-26"
     },
 
@@ -643,6 +835,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex GSFA, FDA §184.1400, EU",
         notes: "Allergen warning (Soy/Egg). Minimal long-term high-dose data.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -656,6 +852,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex GSFA, FDA (GRAS), EU",
         notes: "GRAS. Plant or animal derived. Rare sensitivity.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -669,6 +869,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA §172.840, EU",
         notes: "Synthetic origin. May cause mild digestive sensitivity.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -682,6 +886,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA, EU",
         notes: "Synthetic emulsifier with usage limits. Rare sensitivity.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -695,6 +903,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA, EU",
         notes: "Controversial (digestive concerns). EFSA opinion 2018.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "2018 / 2025"
     },
     {
@@ -708,6 +920,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA (GRAS), EU",
         notes: "May cause bloating in high amounts. Generally safe.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -721,6 +937,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA (GRAS), EU",
         notes: "Rare allergic reactions. Generally well tolerated.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -734,6 +954,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA (GRAS), EU",
         notes: "Possible digestive discomfort in excess. Safe usage levels.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -747,6 +971,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA §172.846, EU",
         notes: "Approved emulsifier with limits. Rare sensitivity case.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -760,6 +988,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA (GRAS), EU",
         notes: "Generally safe. May be animal- or plant-derived.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -773,6 +1005,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA (GRAS), EU",
         notes: "Regulated usage limits. Low toxicity.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -786,6 +1022,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA, EU",
         notes: "Approved within limits. Minimal toxicity concerns.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -799,6 +1039,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA §172.842, EU",
         notes: "Safe within limits. May cause mild digestive effects.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -812,6 +1056,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA (GRAS), EU",
         notes: "Milk-derived allergen. Not suitable for dairy-free.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -825,6 +1073,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA, EU",
         notes: "Approved emulsifier for chocolate. Usage limits apply.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -838,6 +1090,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA (GRAS), EU",
         notes: "Cellulose derivative. Generally safe.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -851,6 +1107,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA (GRAS), EU",
         notes: "Safe at food levels. Possible bloating.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -864,6 +1124,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA, EU",
         notes: "Approved with limits. Minimal toxicity.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -877,6 +1141,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA (GRAS), EU",
         notes: "Generally safe. Rare digestive sensitivity.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -890,6 +1158,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA, EU",
         notes: "Low toxicity at permitted levels.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -903,6 +1175,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA, EU",
         notes: "Regulated additive. Generally safe.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -916,6 +1192,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA §172.844, EU",
         notes: "Approved with limits. Rare sensitivity.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -929,6 +1209,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA, EU",
         notes: "Excess may affect mineral balance. Regulated usage.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -942,6 +1226,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA, EU",
         notes: "Standard chocolate emulsifier. Limited concerns.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -955,6 +1243,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA (GRAS), EU",
         notes: "Approved additive. Generally safe within limits.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
 
@@ -970,6 +1262,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex GSFA, FDA §184.1033, EU",
         notes: "Generally safe. Excess may contribute to dental erosion.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -983,6 +1279,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex GSFA, FDA §172.615",
         notes: "Approved antioxidant. Rare sensitivity reported.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -996,6 +1296,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex GSFA, FDA §182.3149, EU",
         notes: "Fat-soluble derivative of vitamin C. Generally safe.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -1009,6 +1313,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex, FDA (GRAS), EU",
         notes: "Natural extract. Possible mild allergic reactions in some.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -1022,6 +1330,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex GSFA, FDA §182.3045, EU",
         notes: "Structurally related to Vitamin C but not a vitamin.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -1035,6 +1347,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex GSFA, FDA §182.8890, EU",
         notes: "Safe at typical levels. Form of Vitamin E.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -1048,6 +1364,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex GSFA, EU, FDA",
         notes: "Possible rare sensitivity reactions.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -1061,6 +1381,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex GSFA, EU, FDA",
         notes: "Rare allergic reactions reported.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
     {
@@ -1074,6 +1398,10 @@ const ingredientsData = [
         unit: "%",
         regulatorySource: "Codex GSFA, FDA §184.1099, EU",
         notes: "Naturally occurring. High intake may cause discomfort.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "June 2025"
     },
 
@@ -1089,6 +1417,10 @@ const ingredientsData = [
         unit: "-",
         regulatorySource: "GSFA, EU 1333/2008, SL Regs",
         notes: "Natural (fruit-based). High degree of gelation.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "14-Nov-25"
     },
     {
@@ -1102,6 +1434,10 @@ const ingredientsData = [
         unit: "-",
         regulatorySource: "GSFA, EU, SL",
         notes: "Seaweed origin. Strong gel formation.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Jul-25"
     },
     {
@@ -1115,6 +1451,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, EU, FDA",
         notes: "May cause sensitivity in excess.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Jul-25"
     },
     {
@@ -1128,6 +1468,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, EU",
         notes: "Works synergistically with carrageenan.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Jul-25"
     },
     {
@@ -1141,6 +1485,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, EU, FDA",
         notes: "Highly stable at wide pH and temperature ranges.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Mar-26"
     },
     {
@@ -1154,6 +1502,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, EU",
         notes: "Acacia tree source. Excellent stabilizer.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Jul-25"
     },
     {
@@ -1167,6 +1519,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, EU",
         notes: "Forms gel with calcium ions.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Jul-25"
     },
     {
@@ -1180,6 +1536,10 @@ const ingredientsData = [
         unit: "-",
         regulatorySource: "GSFA, FDA",
         notes: "Animal origin protein.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Mar-26"
     },
     {
@@ -1193,6 +1553,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, EU",
         notes: "Chemically modified starch for texture.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Mar-26"
     },
     {
@@ -1206,6 +1570,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, FDA",
         notes: "Prevents ice crystal formation in frozen foods.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Mar-26"
     },
     {
@@ -1219,6 +1587,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA",
         notes: "High water absorption capacity.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Mar-26"
     },
     {
@@ -1232,6 +1604,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA, EU",
         notes: "Used in molecular gastronomy.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Jul-25"
     },
     {
@@ -1245,6 +1621,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA",
         notes: "Similar to sodium alginate.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Jul-25"
     },
     {
@@ -1258,6 +1638,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA",
         notes: "Natural gum, expensive.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "7-Jan-26"
     },
     {
@@ -1271,6 +1655,10 @@ const ingredientsData = [
         unit: "mg/kg",
         regulatorySource: "GSFA",
         notes: "Alternative to guar gum.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "7-Jan-26"
     },
     {
@@ -1284,6 +1672,10 @@ const ingredientsData = [
         unit: "-",
         regulatorySource: "GSFA, FDA",
         notes: "Fat replacer.",
+        regulatorySourceDetailed: "will be added soon...",
+        notesRestrictions: "will be added soon...",
+        sideEffects: "will be added soon...",
+        concerns: "will be added soon...",
         lastUpdated: "16-Mar-26"
     }
 ];
