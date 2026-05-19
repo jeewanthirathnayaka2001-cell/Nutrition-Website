@@ -30,7 +30,7 @@ const ingredientsData = [
         unit: "mg/kg (ppm) and % (FDA)",
         regulatorySource: "Codex GSFA, JECFA, EU 1333/2008, FDA CFR, Sri Lanka",
         notes: "Effective in acidic foods (pH < 4.5). Risk of benzene with ascorbic acid. ADI: 0–5 mg/kg bw.",
-        regulatorySourceDetailed: "will be added soon...",
+        regulatorySourceDetailed: "1. Codex Alimentarius (GSFA): Regulates permitted uses under INS 223, evaluated collectively with other sulfites.2. FAO / WHO (JECFA): Provides the safety evaluation for the sulfite group.3. EU Regulation (EC) No 1333/2008: Permitted under Annex II.4. US FDA CFR: 21 CFR § 182.3766 (Categorized as GRAS when used under good manufacturing practices, subject to strict prohibitions). 5. Sri Lanka Food (Preservatives) Regulations: Governed under national schedules referencing international Codex limits for sulfites.",
         notesRestrictions: "will be added soon...",
         sideEffects: "will be added soon...",
         concerns: "will be added soon...",
