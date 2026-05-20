@@ -30,10 +30,10 @@ const ingredientsData = [
         unit: "mg/kg (ppm) and % (FDA)",
         regulatorySource: "Codex GSFA, JECFA, EU 1333/2008, FDA CFR, Sri Lanka",
         notes: "Effective in acidic foods (pH < 4.5). Risk of benzene with ascorbic acid. ADI: 0–5 mg/kg bw.",
-        regulatorySourceDetailed: "1. Codex Alimentarius (GSFA): Regulates permitted uses under INS 223, evaluated collectively with other sulfites.2. FAO / WHO (JECFA): Provides the safety evaluation for the sulfite group.3. EU Regulation (EC) No 1333/2008: Permitted under Annex II.4. US FDA CFR: 21 CFR § 182.3766 (Categorized as GRAS when used under good manufacturing practices, subject to strict prohibitions). 5. Sri Lanka Food (Preservatives) Regulations: Governed under national schedules referencing international Codex limits for sulfites.",
-        notesRestrictions: "will be added soon...",
-        sideEffects: "will be added soon...",
-        concerns: "will be added soon...",
+        regulatorySourceDetailed: "1.Codex Alimentarius (GSFA): International food additive standard listing E 211 and permitted use levels in specific food categories (48ᵗʰ CAC, 2025 update). 2.FAO/WHO (JECFA): Scientific evaluations underpin Codex provisions and safety assessments (e.g., ADI). 3.EU (EFSA / Regulation 1333/2008): E 211 is authorised as a food additive under EU law, with detailed conditions of use and MPLs set in Annex II; searchable EU food‑additive portal lists conditions and notes. 4.US FDA (CFR): Sodium benzoate is GRAS and permitted in food under 21 CFR § 184.1733, with current usage resulting in a maximum level of 0.1 % in foods as part of good manufacturing practice. 5.Sri Lanka Food Additives Regulations: National lists reference Codex standards for permitted additives and MPLs; no widely‑published separate national MPL table exists but Sri Lanka uses Codex‑derived limits and requires compliance with specifications and labeling.",
+        notesRestrictions: "1.Functional constraints: E 211 acts as a preservative primarily in acidic foods (pH < 4.5), where benzoate is effective as benzoic acid. 2.Group classification: In Codex, sodium benzoate is part of the benzoates group along with benzoic acid and other benzoate salts; group MPLs often apply to the total content of all participating benzoates. 3.FDA/GRAS: FDA lists it as GRAS when used at levels not exceeding good manufacturing practice; current industry practice is ~0.1 % in food. 4.Potential interaction: Benzoates + ascorbic acid under certain conditions may form benzene, a carcinogen; risk management guidance exists for beverage formulations. 5.Labeling: Under EU and many national regulations, E 211 must be declared on labels with its functional class (preservative). 6.ADI: The Acceptable Daily Intake for benzoic acid and its salts is established by JECFA and used as a basis for setting MPLs (common ADI is 0–5 mg/kg bw for benzoates).",
+        sideEffects: "1.Allergic Reactions: Can trigger localized skin irritation, hives (urticaria), redness, or itching in sensitive individuals.",
+        concerns: "1.Benzene Formation: When combined with Vitamin C (Ascorbic Acid) in drinks, it can chemically react to form benzene—a known carcinogen.",
         lastUpdated: "2025"
     },
     {
@@ -47,10 +47,10 @@ const ingredientsData = [
         unit: "mg/kg (ppm) / %",
         regulatorySource: "Codex GSFA, JECFA, EU 1333/2008, FDA CFR, Sri Lanka",
         notes: "Effective below pH 6.5. Regulated as group with Sorbic Acid (E200). ADI guides MPLs.",
-        regulatorySourceDetailed: "will be added soon...",
-        notesRestrictions: "will be added soon...",
-        sideEffects: "will be added soon...",
-        concerns: "will be added soon...",
+        regulatorySourceDetailed: "1.Codex Alimentarius (GSFA): International standard listing permitted uses and MPLs; updated online through the 48ᵗʰ Codex Commission session (2025). 2.FAO/WHO JECFA: Scientific evaluation underpins ADI and safety (preservative group). 3.EU Regulation 1333/2008: EU additive law with Annex II conditions of use; EFSA re‑evaluations inform regulatory decisions (e.g., 2019 opinion). 4.FDA CFR: In the US, potassium sorbate is GRAS when used consistent with GMP. 5.Sri Lanka Food Preservatives Regulations 2019: Preservatives including sorbates are listed with food categories and limits (outlined in schedule documents).",
+        notesRestrictions: "1.Group regulation: Potassium sorbate and sorbic acid (E200) are often regulated as a group (E200–E202) in Codex and EU frameworks; MPL applies to combined total expressed as sorbic acid. 2.Effectiveness depends on pH: Sorbates are most effective in acidic environments (below ~pH 6.5). 3.Recent EU extension: Newly permitted use in non‑heat‑treated plant‑based mousses at 500 mg/kg. 4.Safety evaluations: EFSA re‑evaluated sorbic acid and its salts (including E202); updated opinions guide EU regulatory positions. 5.Labeling: In EU and many countries, E202 must be declared on ingredient lists with functional class (preservative). 6.ADI/safety: JECFA/EFSA ADIs guide MPLs to ensure consumer exposure remains below safe levels.",
+        sideEffects: "1.Contact Dermatitis: Can cause skin irritation, redness, burning, or hives, particularly when used in cosmetics, lotions, or wipes on sensitive skin.",
+        concerns: "1.Pseudoallergy: While actual internal allergic reactions are very rare, it can trigger non-allergic hypersensitivity responses in individuals prone to eczema or skin conditions.",
         lastUpdated: "2025"
     },
     {
@@ -64,10 +64,10 @@ const ingredientsData = [
         unit: "mg/kg / %",
         regulatorySource: "Codex GSFA, JECFA, EU 1333/2008, FDA CFR, Sri Lanka",
         notes: "Effective at acidic pH. Group ADI: 11 mg/kg bw/day. EU recently updated conditions.",
-        regulatorySourceDetailed: "will be added soon...",
-        notesRestrictions: "will be added soon...",
-        sideEffects: "will be added soon...",
-        concerns: "will be added soon...",
+        regulatorySourceDetailed: "1.Codex Alimentarius (GSFA) International additive standard; functional class and MPLs for E 200; updated to 48ᵗʰ Codex Commission session (2025). 2.FAO/WHO (JECFA) Safety evaluations and ADI basis for inclusion in GSFA. 3.EU Regulation (EC) 1333/2008 Lists permitted additives and MPL conditions; regularly updated with implementing regulations. 4.FDA CFR (21 CFR § 182.3089) Sorbic acid is GRAS under GMP conditions in foods. 5.Sri Lanka Food (Preservatives) Regulations 2019 National schedule including E 200 as permitted preservative.",
+        notesRestrictions: "1.Functional grouping: In Codex and EU frameworks, sorbic acid (E 200) is often listed with sorbate salts (E 201–E 203) and their combined total is expressed as sorbic acid for MPL calculations. 2.Effectiveness: Sorbic acid is more effective at acidic pH (< 6.5) and is widely used in foods with low pH. 3.Safety evaluations: EFSA and JECFA have evaluated sorbic acid; EFSA updated a group ADI of 11 mg/kg bw/day for sorbic acid and potassium sorbate based on re‑evaluation. (See recent EU regulatory texts).  4.EU reductions & changes: EU has updated additive specifications, including reductions in heavy metal limits and new authorisations (e.g., fruit‑flavoured desserts at 1000 mg/kg and plant‑based mousses at 500 mg/kg). 5.FDA: As GRAS, sorbic acid must be used according to good manufacturing practice; specific uses include cheeses, fruit products, and margarine at customary industry levels.                                                                                                   6.Labeling: In EU and many national regulations, E 200 must be declared with its name and functional class (preservative) on food labels.    ",
+        sideEffects: "1.Contact Dermatitis: Direct skin contact from cosmetics, topical creams, or wet wipes frequently causes localized redness, itching, burning, or a stinging sensation.",
+        concerns: "1.Hypersensitivity Reactions: It is a well-known skin sensitizer. Individuals with pre-existing skin conditions like eczema or psoriasis are at a much higher risk of developing a reaction.",
         lastUpdated: "2025"
     },
     {
@@ -81,10 +81,10 @@ const ingredientsData = [
         unit: "mg/kg / ppm",
         regulatorySource: "Codex GSFA, JECFA, EU, FDA, Sri Lanka",
         notes: "Nitrosamine Risk. Used with Ascorbic Acid to inhibit nitrosamines. Sold as curing salt mix.",
-        regulatorySourceDetailed: "will be added soon...",
-        notesRestrictions: "will be added soon...",
-        sideEffects: "will be added soon...",
-        concerns: "will be added soon...",
+        regulatorySourceDetailed: "1. Codex Alimentarius (GSFA): International standard listing permitted uses and MPLs for INS 250; limits usually expressed as residual nitrite. 2. FAO/WHO JECFA: Scientific evaluation establishes safety limits (ADI). 3. EU Regulation 1333/2008 & EFSA: Permitted in Annex II. Recently amended by Reg (EU) 2023/2108 to significantly lower maximum limits to reduce consumer exposure to nitrosamines. 4. US FDA CFR / USDA FSIS: 21 CFR § 172.175 (max 200 ppm in smoked salmon/sablefish/shad); USDA regulates meat at typically 120-156 ppm added nitrite. 5. Sri Lanka Food (Preservatives) Regulations 2019: Recognizes nitrites for cured meats, leaning on Codex safety guidelines.",
+        notesRestrictions: "1. Nitrosamine Risk: Nitrites can react with secondary amines in the food or stomach to form nitrosamines, which are probable carcinogens. Regulatory limits are strictly enforced to balance botulism prevention with cancer risk. 2. ADI/Safety: JECFA established an Acceptable Daily Intake (ADI) of 0.07 mg/kg body weight/day. 3. Synergistic Ingredients: Often mandated or recommended to be used alongside Ascorbic Acid or Sodium Ascorbate (E300/E301) which act to inhibit the formation of nitrosamines. 4. Pre-mixing: In many jurisdictions, it must be sold pre-mixed with sodium chloride (curing salt) at low concentrations (e.g., 6%) to prevent lethal accidental overdoses in manufacturing facilities.",
+        sideEffects: "1.Methemoglobinemia: High intake can oxidize the iron in your hemoglobin, turning it into methemoglobin. This reduces the blood's ability to carry oxygen, leading to headaches, fatigue, dizziness, or a bluish skin tint (cyanosis).",
+        concerns: "1.Nitrosamine Formation: When subjected to high heat (like frying bacon) or combined with strong stomach acids, nitrites react with amines in meat to form nitrosamines, which are highly potent, Group 1 carcinogens.",
         lastUpdated: "2025"
     },
     {
@@ -98,10 +98,10 @@ const ingredientsData = [
         unit: "mg/kg / ppm",
         regulatorySource: "Codex GSFA, JECFA, EU, FDA, Sri Lanka",
         notes: "Slow-acting; converts to Nitrite. Prevents 'late blowing' in cheeses.",
-        regulatorySourceDetailed: "will be added soon...",
-        notesRestrictions: "will be added soon...",
-        sideEffects: "will be added soon...",
-        concerns: "will be added soon...",
+        regulatorySourceDetailed: "1. Codex Alimentarius (GSFA): Regulates permitted uses and maximum levels (INS 251). 2. FAO/WHO JECFA: Scientific evaluation for Acceptable Daily Intake (ADI). 3. EU Regulation 1333/2008: Permitted in Annex II. Substantially amended by Regulation (EU) 2023/2108, which lowers limits to reduce nitrosamine exposure. 4. US FDA CFR: 21 CFR 172.170 limits sodium nitrate to 500 ppm in specific smoked/cured fish and home meat-curing preparations. 5. Sri Lanka Food (Preservatives) Regulations: Governed under the national schedules referencing international Codex limits.",
+        notesRestrictions: "1. Conversion to Nitrite: Nitrate itself is relatively inert as a preservative; it relies on bacterial reduction into nitrite over time, making it ideal for long-curing processes. 2. Nitrosamine Risk: Because it converts to nitrite, it carries the same risk of forming carcinogenic nitrosamines when exposed to high heat. 3. ADI/Safety: JECFA and EFSA have established an ADI of 3.7 mg nitrate ion/kg body weight per day.",
+        sideEffects: "1.Vasodilation Headaches: As it converts to nitrites and eventually nitric oxide, it relaxes and widens blood vessels. This can trigger throbbing headaches, dizziness, or facial flushing.",
+        concerns: "1.Indirect Carcinogenicity: Once converted to nitrites in the body, it can react with amino acids (especially under high heat or in stomach acid) to form nitrosamines, which are strongly linked to colorectal and gastric cancers.",
         lastUpdated: "2025"
     },
     {
@@ -115,10 +115,10 @@ const ingredientsData = [
         unit: "mg/kg / GMP",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Strong pungent odor. Commonly used as salts (calcium/sodium propionate). ADI: 'not limited'.",
-        regulatorySourceDetailed: "will be added soon...",
-        notesRestrictions: "will be added soon...",
-        sideEffects: "will be added soon...",
-        concerns: "will be added soon...",
+        regulatorySourceDetailed: "1. Codex Alimentarius (GSFA): Regulates permitted uses and maximum levels (often grouping INS 280 with its salts 281-283). 2. FAO / WHO (JECFA): Provides the scientific safety evaluation and establishes the ADI. 3. EU Regulation (EC) No 1333/2008: Permitted under Annex II. 4. US FDA CFR: 21 CFR § 184.1081 (Categorized as Generally Recognized as Safe - GRAS when used under good manufacturing practices). 5. Sri Lanka Food (Preservatives) Regulations: Listed in national schedules referencing international Codex limits",
+        notesRestrictions: "1. Sensory & Physical Impact: In its pure form, propionic acid is a highly corrosive liquid with a strong, pungent, rancid odor. Due to this aggressive physical state, manufacturers more commonly use its dry salts (calcium or sodium propionate) for easier handling. 2. Natural Occurrence: It is naturally produced by bacteria (Propionibacterium) during the fermentation of certain foods, such as Swiss cheese, which can naturally contain up to 1% propionic acid.",
+        sideEffects: "1.Severe Local Irritation: Direct contact with liquid or concentrated vapor causes painful skin burns, severe eye damage, and irritation of the mucous membranes.",
+        concerns: "1.Neurological & Behavioral Links: Animal studies have investigated high doses of propionic acid for its ability to induce temporary autism-like behaviors and neuroinflammation, sparking research into how excess dietary intake might affect neurodevelopment.",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -132,10 +132,10 @@ const ingredientsData = [
         unit: "mg/kg / ppm",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Severe allergen. Prohibited in Vit B1 sources and fresh produce. Measured as total SO2.",
-        regulatorySourceDetailed: "will be added soon...",
-        notesRestrictions: "will be added soon...",
-        sideEffects: "will be added soon...",
-        concerns: "will be added soon...",
+        regulatorySourceDetailed: "will 1. Codex Alimentarius (GSFA): Regulates permitted uses and maximum levels under INS 220 (typically evaluated as a group under SULFITES). 2. FAO / WHO (JECFA): Provides the foundational scientific safety evaluation for the sulfite group. 3. EU Regulation (EC) No 1333/2008: Permitted under Annex II. 4. US FDA CFR: 21 CFR § 182.3862 (Categorized as GRAS when used under good manufacturing practices, subject to strict prohibitions). 5. Sri Lanka Food (Preservatives) Regulations: Governed under national schedules referencing international Codex limits.be added soon...",
+        notesRestrictions: "1. Allergen Labeling (Critical): Due to severe sensitivity and asthma risks in some populations, mandatory allergen declaration is required in almost all jurisdictions (EU, FDA, Codex) if total residual sulfites exceed 10 mg/kg (or 10 ppm). 2. Vitamin B1 Prohibition: The FDA explicitly prohibits the use of sulfur dioxide in foods recognized as a major source of Vitamin B1 (thiamine) because it destroys the vitamin. It is also prohibited on fresh produce and meats. 3. ADI / Safety: JECFA established a group Acceptable Daily Intake (ADI) of 0 – 0.7 mg/kg body weight per day (expressed as sulfur dioxide). 4. Group Measurement: It is almost always regulated and measured collectively alongside its sulfite salts (E221–E228) and reported on spec sheets as total SO2 or residual SO2.",
+        sideEffects: "1.Severe Bronchoconstriction: Immediate inhalation or ingestion can cause narrowing of the airways, leading to wheezing, chest tightness, coughing, and labored breathing.",
+        concerns: "1.The Sulfite/Asthma Link: Sulfur dioxide is highly hazardous to individuals with asthma. Exposure to even minuscule amounts can trigger rapid, severe, and potentially life-threatening asthmatic attacks.",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -149,10 +149,10 @@ const ingredientsData = [
         unit: "mg/kg / ppm",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Preferred for winemaking to avoid sodium. Mandated allergen declaration if >10mg/kg.",
-        regulatorySourceDetailed: "will be added soon...",
-        notesRestrictions: "will be added soon...",
-        sideEffects: "will be added soon...",
-        concerns: "will be added soon...",
+        regulatorySourceDetailed: "1. Codex Alimentarius (GSFA): Regulates permitted uses under INS 224, evaluated collectively with the sulfite group. 2. FAO / WHO (JECFA): Provides the foundational safety evaluation for all sulfites. 3. EU Regulation (EC) No 1333/2008: Permitted under Annex II. 4. US FDA CFR: 21 CFR § 182.3637 (Categorized as GRAS when used under good manufacturing practices, subject to strict prohibitions). 5. Sri Lanka Food (Preservatives) Regulations: Governed under national schedules referencing international Codex limits for sulfites.",
+        notesRestrictions: "1. Allergen Labeling (Critical): Mandatory declaration is required across almost all jurisdictions (EU, FDA, Sri Lanka) if total residual sulfites exceed 10 mg/kg (or 10 ppm). 2. Potassium vs. Sodium: Preferred over E223 in beverages (like wine) to avoid sodium contribution, which can alter taste and dietary profiles. 3. Vitamin B1 Prohibition: The FDA strictly prohibits the use of sulfites in foods recognized as a major source of Vitamin B1 (thiamine) as well as on raw fresh produce and fresh meats. 4. ADI / Safety: JECFA established a group Acceptable Daily Intake (ADI) of 0 – 0.7 mg/kg body weight per day (expressed as total sulfur dioxide).",
+        sideEffects: "1.Acute Bronchospasms: Ingestion or inhalation of liberated gas causes immediate airway constriction, resulting in severe wheezing, chest tightness, coughing, and shortness of breath.",
+        concerns: "1.Hyper-Reactivity in Asthmatics: It is highly dangerous for people with asthma. Even trace amounts can trigger rapid, debilitating, or life-threatening asthma attacks.",
         lastUpdated: "2025 / 2026"
     },
     {
