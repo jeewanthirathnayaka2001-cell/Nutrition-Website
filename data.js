@@ -166,10 +166,10 @@ const ingredientsData = [
         unit: "mg/kg / ppm",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Prohibited on raw fresh produce and meats. Destroys Vitamin B1.",
-        regulatorySourceDetailed: "will be added soon...",
-        notesRestrictions: "will be added soon...",
-        sideEffects: "will be added soon...",
-        concerns: "will be added soon...",
+        regulatorySourceDetailed: "1. Codex Alimentarius (GSFA): Regulates permitted uses under INS 222 (evaluated collectively under the sulfite group). 2. FAO / WHO (JECFA): Provides the foundational safety evaluations for sulfites. 3. EU Regulation (EC) No 1333/2008: Permitted under Annex II. 4. US FDA CFR: 21 CFR § 182.3739 (Categorized as GRAS when used under good manufacturing practices, subject to specific prohibitions). 5. Sri Lanka Food (Preservatives) Regulations: Governed under national schedules referencing international Codex limits.",
+        notesRestrictions: "1. Allergen Labeling (Critical): Mandatory declaration is required in almost all global jurisdictions (EU, FDA, Sri Lanka) if total residual sulfites exceed 10 mg/kg (or 10 ppm). 2. Vitamin B1 Prohibition: The FDA explicitly prohibits its use in foods recognized as a major source of Vitamin B1 (thiamine) because sulfites destroy this vitamin. 3. Fresh Food Ban: It is prohibited for use on raw fresh produce and fresh meats. 4. ADI / Safety: JECFA established a group Acceptable Daily Intake (ADI) of 0 – 0.7 mg/kg body weight per day (expressed as total sulfur dioxide).",
+        sideEffects: "1.Immediate Airway Constriction: Ingestion or inhalation can cause rapid narrowing of the airways, leading to sudden wheezing, chest tightness, heavy coughing, and labored breathing.",
+        concerns: "1.Severe Asthmatic Reactions: It is highly dangerous for individuals with asthma. Approximately 5% to 10% of asthmatics suffer severe, life-threatening bronchospasms when exposed to sulfites.",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -183,10 +183,10 @@ const ingredientsData = [
         unit: "mg/kg / ppm / mg/dm²",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Targets only fungi. Insoluble, stays on surface. EU depth rule: <5mm penetration.",
-        regulatorySourceDetailed: "will be added soon...",
-        notesRestrictions: "will be added soon...",
-        sideEffects: "will be added soon...",
-        concerns: "will be added soon...",
+        regulatorySourceDetailed: "1. Codex Alimentarius (GSFA): Regulates permitted uses under INS 235 for dairy and meat categories. 2. FAO / WHO (JECFA): Provides the foundational safety and toxicological evaluations. 3. EU Regulation (EC) No 1333/2008: Permitted under Annex II, with strict specifications on application depth. 4. US FDA CFR: 21 CFR § 172.155 (Approves use on cuts and slices of cheese). 5. Sri Lanka Food (Preservatives) Regulations: Governed under national schedules, defaulting to Codex guidelines for antimycotic surface limits.",
+        notesRestrictions: "1. Bacterial Neutrality: Because it only targets fungi, it is the industry standard for fermented products (like cheese or dry sausages) where beneficial bacterial cultures must remain active. 2. Application Method: Due to its extremely low solubility in water, it remains strictly on the surface of the food where mold grows. It is typically applied via dipping, spraying, or as a dry powder mix (often carried by cellulose or salt). 3. EU Depth Rule: European regulations strictly dictate that the preservative must not be detectable at a depth of 5 mm below the cheese rind or sausage casing. 4. ADI / Safety: JECFA established an Acceptable Daily Intake (ADI) of 0.3 mg/kg body weight per day.",
+        sideEffects: "1.Gastrointestinal Distress: Consuming massive doses (well beyond normal dietary levels) can cause mild stomach irritation, nausea, vomiting, or diarrhea.",
+        concerns: "1.Antifungal Resistance Fears: A primary concern among microbiologists is whether the widespread use of natamycin in food could contribute to the development of resistant fungal strains, potentially reducing the efficacy of related medical antifungals.",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -200,10 +200,10 @@ const ingredientsData = [
         unit: "mg/kg / ppm",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Bacteriocin from L. lactis. Stable at acidic pH and heat. No effect on yeast/molds.",
-        regulatorySourceDetailed: "will be added soon...",
-        notesRestrictions: "will be added soon...",
-        sideEffects: "will be added soon...",
-        concerns: "will be added soon...",
+        regulatorySourceDetailed: "1. Codex Alimentarius (GSFA): Regulates permitted uses and maximum levels under INS 234. 2. FAO / WHO (JECFA): Provides the foundational scientific safety evaluation. 3. EU Regulation (EC) No 1333/2008: Permitted under Annex II. 4. US FDA CFR: 21 CFR § 184.1538 (Categorized as GRAS for use as an antimicrobial agent to inhibit Clostridium botulinum spores). 5. Sri Lanka Food (Preservatives) Regulations: Governed under national schedules referencing international Codex limits for dairy and egg applications.",
+        notesRestrictions: "1. Targeted Action: Nisin is strictly effective against Gram-positive bacteria and spores; it does not inhibit Gram-negative bacteria (like E. coli or Salmonella), yeasts, or molds. 2. Heat & pH Stability: It is highly stable at acidic pH during heat processing, making it ideal for extending the shelf life of pasteurized and canned goods. 3. ADI / Safety: JECFA established an Acceptable Daily Intake (ADI) of 0 – 2 mg/kg body weight per day (evaluated as pure nisin).",
+        sideEffects: "1.Complete Digestive Breakdown: Nisin causes zero systemic side effects because it is entirely inactivated and digested by human proteolytic enzymes (like trypsin and chymotrypsin) in the small intestine.",
+        concerns: "1.Cross-Resistance Debates: A long-standing theoretical concern is whether the heavy use of nisin in food could promote bacterial cross-resistance to medically vital peptide antibiotics (such as vancomycin), though current research shows this risk remains extremely low.",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -217,10 +217,10 @@ const ingredientsData = [
         unit: "mg/kg / %",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "EU banned Propylparaben (E216/217) in 2006. Industry shift towards paraben-free.",
-        regulatorySourceDetailed: "will be added soon...",
-        notesRestrictions: "will be added soon...",
-        sideEffects: "will be added soon...",
-        concerns: "will be added soon...",
+        regulatorySourceDetailed: "1. Codex Alimentarius (GSFA): Regulates permitted uses strictly for methyl and ethyl parabens. 2. FAO / WHO (JECFA): Provides the foundational toxicological safety evaluation. 3. EU Regulation (EC) No 1333/2008: Permitted under Annex II, but heavily restricted. 4. US FDA CFR: 21 CFR § 184.1490 (Methylparaben) and § 184.1670 (Propylparaben) classified as GRAS. 5. Sri Lanka Food (Preservatives) Regulations: Follows international Codex limits, though domestic food industry use is rapidly declining",
+        notesRestrictions: "1. EU Propylparaben Ban (Critical): In 2006, the EU completely banned Propylparaben (E216) and its sodium salt (E217) from food applications due to concerns over endocrine disruption and its potential effects on reproductive health. 2. Consumer Rejection: The paraben-free movement has driven a massive industry shift away from their use in food and beverages, making them increasingly rare in modern food formulations compared to cosmetics. 3. ADI / Safety: EFSA established a group Acceptable Daily Intake (ADI) of 0–10 mg/kg body weight per day strictly for methyl and ethyl parabens. Propylparaben currently has no accepted ADI in Europe.",
+        sideEffects: "1.Allergic Contact Dermatitis: Topical application frequently causes skin irritation, redness, burning, swelling, or itchy rashes, especially in individuals with eczema or broken skin barriers.",
+        concerns: "1.Endocrine Disruption (Estrogen Mimicry): Parabens are known xenoestrogens, meaning they can bind to estrogen receptors in the body. Although weak, this hormonal mimicry can potentially disrupt normal endocrine signaling.",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -234,10 +234,10 @@ const ingredientsData = [
         unit: "GMP / %",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Lowers pH. Naturally self-limiting due to odor/taste. ADI: 'not limited'.",
-        regulatorySourceDetailed: "will be added soon...",
-        notesRestrictions: "will be added soon...",
-        sideEffects: "will be added soon...",
-        concerns: "will be added soon...",
+        regulatorySourceDetailed: "1. Codex Alimentarius (GSFA): Regulates permitted uses under INS 260. 2. FAO / WHO (JECFA): Provides the foundational toxicological safety evaluation. 3. EU Regulation (EC) No 1333/2008: Permitted under Annex II (largely quantum satis). 4. US FDA CFR: 21 CFR § 184.1005 (Categorized as Generally Recognized as Safe - GRAS when used under good manufacturing practices). 5. Sri Lanka Food (Preservatives/Additives) Regulations: Listed under acidity regulators and preservatives conforming to GMP.",
+        notesRestrictions: "1. Sensory Limits: Acetic acid is naturally self-limiting. Its highly pungent vinegar odor and intense sour taste mean it cannot be overused without ruining the food's palatability. 2. Microbial Focus: It is highly effective against Gram-positive and Gram-negative bacteria, but is generally less effective against yeasts and molds compared to sorbates or propionates. 3. ADI / Safety: JECFA established an Acceptable Daily Intake (ADI) of not limited, indicating extremely low toxicity, as it is a naturally occurring metabolic intermediate.",
+        sideEffects: "1.Chemical Burns and Tissue Corrosion: Contact with concentrated solutions (greater than 10-20%) causes severe, painful skin burns, permanent eye damage, and destruction of mucous membranes.",
+        concerns: "1.Severe Esophageal and Gastric Perforation: Accidental or intentional ingestion of highly concentrated glacial acetic acid destroys the lining of the throat and stomach, leading to life-threatening internal bleeding or perforations.",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -251,10 +251,10 @@ const ingredientsData = [
         unit: "GMP / %",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Smooth tartness. I-isomer restriction for infants. Natural metabolic intermediate.",
-        regulatorySourceDetailed: "will be added soon...",
-        notesRestrictions: "will be added soon...",
-        sideEffects: "will be added soon...",
-        concerns: "will be added soon...",
+        regulatorySourceDetailed: "1. Codex Alimentarius (GSFA): Regulates permitted uses under INS 270. 2. FAO / WHO (JECFA): Provides the foundational toxicological safety evaluations. 3. EU Regulation (EC) No 1333/2008: Permitted under Annex II. 4. US FDA CFR: 21 CFR § 184.1061 (Categorized as Generally Recognized as Safe - GRAS when used under good manufacturing practices). 5. Sri Lanka Food (Food Additives/Preservatives) Regulations: Governed under national schedules referencing international Codex limits for GMP.",
+        notesRestrictions: "1. Sensory Limits: Acetic acid is naturally self-limiting. Its highly pungent vinegar odor and intense sour taste mean it cannot be overused without ruining the food's palatability. 2. Microbial Focus: It is highly effective against Gram-positive and Gram-negative bacteria, but is generally less effective against yeasts and molds compared to sorbates or propionates. 3. ADI / Safety: JECFA established an Acceptable Daily Intake (ADI) of not limited, indicating extremely low toxicity, as it is a naturally occurring metabolic intermediate.",
+        sideEffects: "1.Skin Irritation & Chemical Burns: Topical application of concentrated skincare solutions can cause redness, burning, itching, peeling, and localized inflammation.",
+        concerns: "1.Increased Photosensitivity: When used as an exfoliating AHA in cosmetics, it removes the outermost layer of dead skin cells, significantly increasing the risk of sunburn and UV damage if sun protection is omitted.",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -268,10 +268,10 @@ const ingredientsData = [
         unit: "mg/kg / mg/L",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Hydrolyzes in 2-4 hours; zero residue. Toxic in pure form, needs closed-loop dosing.",
-        regulatorySourceDetailed: "will be added soon...",
-        notesRestrictions: "will be added soon...",
-        sideEffects: "will be added soon...",
-        concerns: "will be added soon...",
+        regulatorySourceDetailed: "1. Codex Alimentarius (GSFA): Regulates maximum added limits under INS 242. 2. FAO / WHO (JECFA): Provides the foundational safety and toxicological evaluations. 3. EU Regulation (EC) No 1333/2008: Permitted under Annex II. 4. US FDA CFR: 21 CFR § 172.133 (Approves use as a yeast inhibitor in wines and RTD teas/beverages). 5. Sri Lanka Food (Preservatives) Regulations: Follows international Codex limits for cold sterilants in beverages.",
+        notesRestrictions: "1. Zero Residue (Hydrolysis): DMDC breaks down completely within 2 to 4 hours (depending on beverage temperature). By the time the product reaches the consumer, the preservative is entirely gone. 2. Worker Safety & Mechanical Handling: In its pure liquid form, DMDC is highly toxic and corrosive. It mandates closed-loop, automated dosing systems (like Velcorin dosing units) equipped with strict safety interlocks to protect factory personnel. 3. Methanol Byproduct: The hydrolysis process produces trace amounts of methanol. Regulatory authorities monitor this, but the resulting methanol levels remain well below toxicological safety thresholds. 4. ADI / Safety: JECFA determined that setting an ADI is unnecessary because the substance is absent in the consumed food.",
+        sideEffects: "1.Severe Corrosive Skin Burns: Pure DMDC liquid is highly corrosive. Direct contact with skin causes immediate, painful chemical burns, deep tissue irritation, and blistering.",
+        concerns: "1.Methanol Formation: As DMDC breaks down in water, it generates small amounts of methanol (a toxic alcohol). While the amount generated is legally restricted, consumers have raised concerns regarding cumulative toxic exposure.",
         lastUpdated: "2025 / 2026"
     },
 
@@ -287,10 +287,10 @@ const ingredientsData = [
         unit: "GMP / %",
         regulatorySource: "Codex GSFA, JECFA, EU, FDA, Sri Lanka",
         notes: "Risk of benzene with Sodium Benzoate. Inhibits nitrosamines in cured meats.",
-        regulatorySourceDetailed: "will be added soon...",
-        notesRestrictions: "will be added soon...",
-        sideEffects: "will be added soon...",
-        concerns: "will be added soon...",
+        regulatorySourceDetailed: "1. Codex Alimentarius (GSFA): Regulates permitted uses under INS 300. 2. FAO / WHO (JECFA): Provides the foundational safety and toxicological evaluations. 3. EU Regulation (EC) No 1333/2008: Permitted extensively under Annex II. 4. US FDA CFR: 21 CFR § 182.3013 (Categorized as Generally Recognized as Safe - GRAS when used under good manufacturing practices). 5. Sri Lanka Food (Food Additives/Preservatives) Regulations: Governed under national schedules, widely permitted under GMP guidelines.",
+        notesRestrictions: "1. Benzene Risk (Critical for Beverages): When Ascorbic Acid (E300) is used in combination with Sodium Benzoate (E211) in liquid formulations, exposure to heat and UV light can trigger a chemical reaction that forms benzene, a known carcinogen. Strict QA monitoring and chelating agents (like EDTA) are often required to mitigate this. 2. Nitrosamine Inhibition: In processed meats, it is highly recommended (and sometimes legally required) to be used alongside Sodium Nitrite (E250) because Ascorbic Acid actively inhibits the formation of carcinogenic nitrosamines during cooking. 3. ADI / Safety: JECFA established an Acceptable Daily Intake (ADI) of not specified, reflecting its very low toxicity and essential role as an essential human nutrient (Vitamin C).",
+        sideEffects: "1.Gastrointestinal Distress: Consuming large quantities (typically over 2,000 mg per day) causes osmotic diarrhea, abdominal cramps, nausea, and stomach bloating.",
+        concerns: "1.Kidney Stone Formation: The body metabolizes excess ascorbic acid into oxalate. High concentrations of oxalate in urine can bind with calcium, significantly increasing the risk of calcium oxalate kidney stones in susceptible individuals.",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -304,10 +304,10 @@ const ingredientsData = [
         unit: "GMP / %",
         regulatorySource: "Codex GSFA, JECFA, EU, FDA, Sri Lanka",
         notes: "Curing accelerator; non-acidic. Preferable where pH stability is required.",
-        regulatorySourceDetailed: "will be added soon...",
-        notesRestrictions: "will be added soon...",
-        sideEffects: "will be added soon...",
-        concerns: "will be added soon...",
+        regulatorySourceDetailed: "1. Codex Alimentarius (GSFA): Regulates permitted uses under INS 301. 2. FAO / WHO (JECFA): Provides the foundational safety and toxicological evaluations. 3. EU Regulation (EC) No 1333/2008: Permitted extensively under Annex II. 4. US FDA CFR: 21 CFR § 182.3731 (Categorized as Generally Recognized as Safe - GRAS when used under good manufacturing practices). 5. Sri Lanka Food Act & Regulations: Governed under national schedules, generally permitted under GMP guidelines.",
+        notesRestrictions: "1. Curing Accelerator: Highly effective when paired with nitrites in cured meats. It speeds up the reduction of nitrite to nitric oxide (accelerating the pink color development) and strongly inhibits the formation of carcinogenic nitrosamines during cooking. 2. Acidity Difference: Unlike pure Ascorbic Acid (E300), Sodium Ascorbate is non-acidic. It is preferred in formulations (like milk-based products or specific meats) where lowering the pH would negatively impact the texture or protein stability. 3. Benzene Risk: Similar to E300, if mixed with benzoates (E211) in beverages exposed to heat/light, it can form trace amounts of benzene. 4. ADI / Safety: JECFA established an Acceptable Daily Intake (ADI) of not specified, reflecting its extremely low toxicity.",
+        sideEffects: "1.Osmotic Diarrhea and Bloating: Consuming large doses (typically over 2,000 mg per day) draws excess water into the large intestine, causing loose stools, abdominal cramps, and gas.",
+        concerns: "Elevated Dietary Sodium Load: Every 1,000 mg of sodium ascorbate contains roughly 111 mg of elemental sodium. Mega-dosing can quietly contribute to fluid retention, arterial stress, and elevated blood pressure.",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -321,10 +321,10 @@ const ingredientsData = [
         unit: "mg/kg / %",
         regulatorySource: "Codex GSFA, JECFA, EU, FDA, Sri Lanka",
         notes: "Free radical scavengers. Natural 'clean label' choice. Synergistic with Vitamin C.",
-        regulatorySourceDetailed: "will be added soon...",
-        notesRestrictions: "will be added soon...",
-        sideEffects: "will be added soon...",
-        concerns: "will be added soon...",
+        regulatorySourceDetailed: "1. Codex Alimentarius (GSFA): Regulates permitted uses under INS 307a, 307b, 307c. 2. FAO / WHO (JECFA): Provides the foundational safety and toxicological evaluations. 3. EU Regulation (EC) No 1333/2008: Permitted under Annex II. 4. US FDA CFR: 21 CFR § 182.3890 (Categorized as Generally Recognized as Safe - GRAS when used as a chemical preservative under good manufacturing practices). 5. Sri Lanka Food (Food Additives) Regulations: Follows international Codex limits, widely permitted under GMP guidelines.",
+        notesRestrictions: "1. Clean Label Preference: Because they occur naturally in vegetable oils (like soybean and sunflower oil), tocopherols are heavily favored in clean label formulations as a natural replacement for synthetic antioxidants like BHA (E320), BHT (E321), and TBHQ (E319). 2. Synergy: They are highly synergistic when used in combination with Ascorbic Acid (E300) or Citric Acid, which help regenerate the tocopherols and chelate trace metals that cause oxidation. 3. ADI / Safety: JECFA established an Acceptable Daily Intake (ADI) of 0.15 to 2 mg/kg body weight per day (specifically evaluated for alpha-tocopherol), reflecting its safety and role as an essential human nutrient.",
+        sideEffects: "1.Gastrointestinal Distress: Taking massive oral doses can cause stomach cramps, bloating, nausea, flatulence, and diarrhea.",
+        concerns: "1.Anti-Platelet & Bleeding Risks: Vitamin E acts as a mild anticoagulant. At high levels, it inhibits platelet aggregation and antagonizes Vitamin K, significantly increasing the risk of internal bleeding and hemorrhagic stroke.",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -338,10 +338,10 @@ const ingredientsData = [
         unit: "mg/kg / %",
         regulatorySource: "Codex GSFA, JECFA, EU 1333/2008, FDA, Sri Lanka",
         notes: "Synthetic phenolic. High heat stability. Synergistic with BHT. Under scrutiny (Prop 65).",
-        regulatorySourceDetailed: "will be added soon...",
-        notesRestrictions: "will be added soon...",
-        sideEffects: "will be added soon...",
-        concerns: "will be added soon...",
+        regulatorySourceDetailed: "1. Codex Alimentarius (GSFA): Regulates permitted uses under INS 320. 2. FAO / WHO (JECFA): Provides the foundational toxicological safety evaluation. 3. EU Regulation (EC) No 1333/2008: Permitted under Annex II, frequently restricted to specific high-fat applications. 4. US FDA CFR: 21 CFR § 182.3169 (GRAS status) and § 172.110 (Food additive status). 5. Sri Lanka Food (Food Additives) Regulations: Adheres to Codex international limits for synthetic antioxidants.",
+        notesRestrictions: "1. Synergy: BHA is rarely used alone; it is most effective and efficient when formulated synergistically with Butylated Hydroxytoluene (BHT, E321) or Propyl Gallate. 2. Regulatory Scrutiny: It faces increasing regulatory and consumer scrutiny in some regions (such as California's Prop 65 list) due to historical animal studies, though both EFSA and the FDA maintain its safety for human consumption at established limits. 3. ADI / Safety: JECFA established an Acceptable Daily Intake (ADI) of 0 – 0.5 mg/kg body weight per day.",
+        sideEffects: "1.Allergic Contact Dermatitis: Topical application in cosmetics or skin creams frequently causes localized skin irritation, red rashes, itching, burning, or swelling in sensitive individuals.",
+        concerns: "1.Carcinogenicity Status: The International Agency for Research on Cancer (IARC) classifies BHA as a Group 2B Possible Human Carcinogen. High dietary doses consistently produce papillomas and carcinomas in the forestomachs of rodents.",
         lastUpdated: "2025 / 2026"
     },
     {
@@ -355,10 +355,10 @@ const ingredientsData = [
         unit: "mg/kg / %",
         regulatorySource: "Codex, JECFA, EU, FDA, Sri Lanka",
         notes: "Prevents oxidative rancidity. Effective for baked/fried goods. Usually paired with BHA.",
-        regulatorySourceDetailed: "will be added soon...",
-        notesRestrictions: "will be added soon...",
-        sideEffects: "will be added soon...",
-        concerns: "will be added soon...",
+        regulatorySourceDetailed: "1. Codex Alimentarius (GSFA): Regulates permitted uses and maximum levels under INS 321. 2. FAO / WHO (JECFA): Provides the foundational toxicological safety evaluations. 3. EU Regulation (EC) No 1333/2008: Permitted under Annex II, with limits often grouped alongside BHA.4. US FDA CFR: 21 CFR § 182.3173 (Categorized as GRAS for specific uses) and § 172.115 (Food additive status). 5. Sri Lanka Food (Food Additives) Regulations: Adheres to international Codex limits for synthetic antioxidants in commercial formulations.",
+        notesRestrictions: "1. Synergy: BHT is rarely used on its own; it is most effective when formulated as a synergistic blend with BHA (E320). 2. Handling/Processing: It typically presents as a white crystalline powder and must be completely dissolved into the lipid matrix for uniform protection, requiring proper mechanical agitation during the mixing phase. 3. ADI / Safety: JECFA established an Acceptable Daily Intake (ADI) of 0.3 mg/kg body weight per day.",
+        sideEffects: "1.Allergic Contact Dermatitis: Topical application in cosmetics, lip balms, or lotions frequently causes skin irritation, red rashes, scaling, burning, or intense itching in sensitive individuals.",
+        concerns: "1.Endocrine Disruption: Like BHA, BHT exhibits weak estrogenic activity and can mimic or interfere with natural hormone receptors, potentially impacting reproductive development and endocrine health over time.",
         lastUpdated: "2025 / 2026"
     },
     {
