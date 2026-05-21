@@ -106,7 +106,7 @@ const ingredientsData = [
     },
     {
         name: "Propionic Acid",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/propionic acid.jpeg",
         ins: "E280",
         functionalClass: "Preservative",
         permittedCategories: "1. Bakery wares, 2. Cheese, 3. Grain products, 4. Animal feeds",
@@ -123,7 +123,7 @@ const ingredientsData = [
     },
     {
         name: "Sulfur Dioxide",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/sulfer dioxide.jpg.jpeg",
         ins: "E220",
         functionalClass: "Preservative, Antioxidant, Bleaching agent",
         permittedCategories: "1. Dried fruits/veg, 2. Wines, ciders, 3. Fruit juices, 4. Herbs and spices",
@@ -140,7 +140,7 @@ const ingredientsData = [
     },
     {
         name: "Potassium Metabisulfite",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Potassium Metabisulfite.jpg.jpeg",
         ins: "E224",
         functionalClass: "Preservative, Antioxidant, Bleaching agent",
         permittedCategories: "1. Wines, ciders, meads, 2. Fruit juices, 3. Dried fruits, 4. Beer",
@@ -157,7 +157,7 @@ const ingredientsData = [
     },
     {
         name: "Sodium Bisulfite",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Sodium Bisulfite.jpg.jpeg",
         ins: "E222",
         functionalClass: "Preservative, Antioxidant, Bleaching agent",
         permittedCategories: "1. Fruit preserves/jams, 2. Beverages, 3. Dried fruits, 4. Processed seafood",
@@ -174,7 +174,7 @@ const ingredientsData = [
     },
     {
         name: "Natamycin",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Natamycin.jpg.jpeg",
         ins: "E235",
         functionalClass: "Preservative / Antimycotic agent",
         permittedCategories: "1. Ripened/unripened cheese (surface), 2. Cured meats (surface)",
@@ -191,7 +191,7 @@ const ingredientsData = [
     },
     {
         name: "Nisin",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Nisin.jpg.jpeg",
         ins: "E234",
         functionalClass: "Preservative",
         permittedCategories: "1. Processed cheese, 2. Clotted cream, 3. Liquid egg, 4. Canned puddings",
@@ -208,7 +208,7 @@ const ingredientsData = [
     },
     {
         name: "Parabens",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Parabens.jpg.jpeg",
         ins: "E218, E219, E214, E215",
         functionalClass: "Preservative",
         permittedCategories: "1. Confectionery (non-chocolate), 2. Meat pastes/pâtés, 3. Marinated fish, 4. Liquid supplements",
@@ -225,7 +225,7 @@ const ingredientsData = [
     },
     {
         name: "Acetic Acid",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Acetic Acid.jpg.jpeg",
         ins: "E260",
         functionalClass: "Preservative, Acidity regulator",
         permittedCategories: "1. Pickles, 2. Condiments/Sauces, 3. Bakery, 4. Dairy (whey cheese)",
@@ -242,7 +242,7 @@ const ingredientsData = [
     },
     {
         name: "Lactic Acid",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Lactic Acid.jpg.jpeg",
         ins: "E270",
         functionalClass: "Acidity regulator, Preservative",
         permittedCategories: "1. Dairy, 2. Beverages, 3. Confectionery/Bakery, 4. Meat surface wash",
@@ -259,7 +259,7 @@ const ingredientsData = [
     },
     {
         name: "Dimethyl Dicarbonate (DMDC)",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Dimethyl Dicarbonate (DMDC).jpg.jpeg",
         ins: "E242",
         functionalClass: "Preservative / Cold Sterilant",
         permittedCategories: "1. Water-based flavoured drinks, 2. Wines/Ciders, 3. Liquid tea concentrates",
@@ -278,7 +278,7 @@ const ingredientsData = [
     // --- ANTIOXIDANTS ---
     {
         name: "Ascorbic Acid / Vitamin C",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Ascorbic Acid - Vitamin C.jpg.jpeg",
         ins: "E300",
         functionalClass: "Antioxidant, Colour retention, Flour treatment",
         permittedCategories: "1. Juices/Drinks, 2. Processed meats, 3. Canned fruits/veg, 4. Bakery",
@@ -295,7 +295,7 @@ const ingredientsData = [
     },
     {
         name: "Sodium Ascorbate",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Sodium Ascorbate.jpg.jpeg",
         ins: "E301",
         functionalClass: "Antioxidant, Colour retention",
         permittedCategories: "1. Cured meats, 2. Drinks, 3. Canned fruits/veg, 4. Bakery",
@@ -312,7 +312,7 @@ const ingredientsData = [
     },
     {
         name: "Tocopherols / Vitamin E",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Tocopherols - Vitamin E.jpg.jpeg",
         ins: "E306-309",
         functionalClass: "Antioxidant",
         permittedCategories: "1. Oils/Fats, 2. Infants foods, 3. Cereals/Bakery, 4. Processed meats",
@@ -329,7 +329,7 @@ const ingredientsData = [
     },
     {
         name: "Butylated Hydroxyanisole (BHA)",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Butylated Hydroxyanisole (BHA).jpg.jpeg",
         ins: "E320",
         functionalClass: "Antioxidant",
         permittedCategories: "1. Edible fats/oils, 2. Chewing gum, 3. Snacks, 4. Processed meats/potatoes",
@@ -346,7 +346,7 @@ const ingredientsData = [
     },
     {
         name: "Butylated Hydroxytoluene (BHT)",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Butylated Hydroxytoluene (BHT).jpg.jpeg",
         ins: "E321",
         functionalClass: "Antioxidant",
         permittedCategories: "1. Fats/Oils, 2. Chewing gum, 3. Cereals/Snacks, 4. Meats/Potatoes",
@@ -363,7 +363,7 @@ const ingredientsData = [
     },
     {
         name: "Tert-butylhydroquinone (TBHQ)",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Tert-butylhydroquinone (TBHQ).jpg.jpeg",
         ins: "E319",
         functionalClass: "Antioxidant",
         permittedCategories: "1. Frying oils, 2. Snacks/Crackers, 3. Processed meats/fish, 4. Popcorn/Noodles",
@@ -380,7 +380,7 @@ const ingredientsData = [
     },
     {
         name: "Calcium Disodium EDTA",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Calcium Disodium EDTA.jpg.jpeg",
         ins: "E385",
         functionalClass: "Sequestrant / Antioxidant / Preservative",
         permittedCategories: "1. Mayonnaise/Dressings, 2. Canned veg/legumes, 3. Canned seafood, 4. Fat spreads",
@@ -399,7 +399,7 @@ const ingredientsData = [
     // --- COLOURS ---
     {
         name: "Curcumin",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Curcumin.jpg.jpeg",
         ins: "E100",
         functionalClass: "Colour",
         permittedCategories: "Confectionery, Sauces, Fats & Oils",
@@ -416,7 +416,7 @@ const ingredientsData = [
     },
     {
         name: "Riboflavins",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Riboflavins.jpg.jpeg",
         ins: "E101",
         functionalClass: "Colour",
         permittedCategories: "Dairy products, Cereals, Bakery wares",
@@ -433,7 +433,7 @@ const ingredientsData = [
     },
     {
         name: "Tartrazine",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Tartrazine.jpg.jpeg",
         ins: "E102",
         functionalClass: "Colour",
         permittedCategories: "Beverages, Sweets, Snacks",
@@ -450,7 +450,7 @@ const ingredientsData = [
     },
     {
         name: "Quinoline Yellow",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Quinoline Yellow.jpg.jpeg",
         ins: "E104",
         functionalClass: "Colour",
         permittedCategories: "Smoked fish, Seasonings, Edible ices",
@@ -467,7 +467,7 @@ const ingredientsData = [
     },
     {
         name: "Sunset Yellow FCF",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Sunset Yellow FCF.jpg.jpeg",
         ins: "E110",
         functionalClass: "Colour",
         permittedCategories: "Breakfast cereals, Dessert, Drinks",
@@ -484,7 +484,7 @@ const ingredientsData = [
     },
     {
         name: "Carmoisine",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Carmoisine.jpg.jpeg",
         ins: "E122",
         functionalClass: "Colour",
         permittedCategories: "Jams & Jellies, Fruit fillings, Beverages",
@@ -501,7 +501,7 @@ const ingredientsData = [
     },
     {
         name: "Ponceau 4R",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Ponceau 4R.jpg.jpeg",
         ins: "E124",
         functionalClass: "Colour",
         permittedCategories: "Ices & Sherbets, Processed fish, Pastries",
@@ -518,7 +518,7 @@ const ingredientsData = [
     },
     {
         name: "Erythrosine",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Erythrosine.jpg.jpeg",
         ins: "E127",
         functionalClass: "Colour",
         permittedCategories: "Glacé cherries, Cocktail cherries",
@@ -535,7 +535,7 @@ const ingredientsData = [
     },
     {
         name: "Allura Red AC",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Allura Red AC.jpg.jpeg",
         ins: "E129",
         functionalClass: "Colour",
         permittedCategories: "Seasonings, Cereals, Meat products",
@@ -552,7 +552,7 @@ const ingredientsData = [
     },
     {
         name: "Indigotine",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Indigotine.jpg.jpeg",
         ins: "E132",
         functionalClass: "Colour",
         permittedCategories: "Bakery wares, Dairy analogues, Sweets",
@@ -569,7 +569,7 @@ const ingredientsData = [
     },
     {
         name: "Brilliant Blue FCF",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Brilliant Blue FCF.jpg.jpeg",
         ins: "E133",
         functionalClass: "Colour",
         permittedCategories: "Dairy desserts, Ices, Soft drinks",
@@ -586,7 +586,7 @@ const ingredientsData = [
     },
     {
         name: "Chlorophylls",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Chlorophylls.jpg.jpeg",
         ins: "E140",
         functionalClass: "Colour",
         permittedCategories: "Fats & Oils, Chewing gum, Fruit prep",
@@ -603,7 +603,7 @@ const ingredientsData = [
     },
     {
         name: "Copper Chlorophyllins",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Copper Chlorophyllins.jpg.jpeg",
         ins: "E141",
         functionalClass: "Colour",
         permittedCategories: "Canned vegetables, Dairy products, Sauces",
@@ -620,7 +620,7 @@ const ingredientsData = [
     },
     {
         name: "Fast Green FCF",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Fast Green FCF.jpg.jpeg",
         ins: "INS 143",
         functionalClass: "Colour",
         permittedCategories: "Edible ices, Beverages, Desserts",
@@ -637,7 +637,7 @@ const ingredientsData = [
     },
     {
         name: "Plain Caramel (I)",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Plain Caramel (I).jpg.jpeg",
         ins: "E150a",
         functionalClass: "Colour",
         permittedCategories: "Soups & Sauces, Spirits, Bakery wares",
@@ -654,7 +654,7 @@ const ingredientsData = [
     },
     {
         name: "Ammonia Caramel (III)",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Ammonia Caramel (III).jpg.jpeg",
         ins: "E150c",
         functionalClass: "Colour",
         permittedCategories: "Beer, Gravy, Sauces",
@@ -671,7 +671,7 @@ const ingredientsData = [
     },
     {
         name: "Brilliant Black BN",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Brilliant Black BN.jpg.jpeg",
         ins: "E151",
         functionalClass: "Colour",
         permittedCategories: "Fish roe, Sauces, Sweets",
@@ -688,7 +688,7 @@ const ingredientsData = [
     },
     {
         name: "Vegetable Carbon",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Vegetable Carbon.jpg.jpeg",
         ins: "E153",
         functionalClass: "Colour",
         permittedCategories: "Cheese, Confectionery, Decorations",
@@ -705,7 +705,7 @@ const ingredientsData = [
     },
     {
         name: "Brown HT",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Brown HT.jpg.jpeg",
         ins: "E155",
         functionalClass: "Colour",
         permittedCategories: "Chocolate cakes, Biscuits, Dairy",
@@ -722,7 +722,7 @@ const ingredientsData = [
     },
     {
         name: "Beta-Carotene (Veg)",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Beta-Carotene (Veg).jpg.jpeg",
         ins: "E160a",
         functionalClass: "Colour",
         permittedCategories: "Margarine, Fats & Oils, Beverages",
@@ -739,7 +739,7 @@ const ingredientsData = [
     },
     {
         name: "Annatto (Bixin)",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Annatto (Bixin).jpg.jpegs",
         ins: "E160b",
         functionalClass: "Colour",
         permittedCategories: "Cheese, Butter, Snacks",
@@ -756,7 +756,7 @@ const ingredientsData = [
     },
     {
         name: "Paprika Extract",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Paprika Extract.jpg.jpegs",
         ins: "E160c",
         functionalClass: "Colour",
         permittedCategories: "Snacks, Seasonings, Processed meat",
@@ -773,7 +773,7 @@ const ingredientsData = [
     },
     {
         name: "Lycopene (Synth)",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Lycopene (Synth).jpg.jpeg",
         ins: "E160d",
         functionalClass: "Colour",
         permittedCategories: "Sauces, Beverages, Desserts",
@@ -790,7 +790,7 @@ const ingredientsData = [
     },
     {
         name: "Beetroot Red",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Beetroot Red.jpg.jpeg",
         ins: "E162",
         functionalClass: "Colour",
         permittedCategories: "Yogurt, Meat products, Ices",
@@ -807,7 +807,7 @@ const ingredientsData = [
     },
     {
         name: "Anthocyanins",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Anthocyanins.jpg.jpeg",
         ins: "E163",
         functionalClass: "Colour",
         permittedCategories: "Beverages, Fruit prep, Confectionery",
@@ -826,7 +826,7 @@ const ingredientsData = [
     // --- EMULSIFIERS ---
     {
         name: "Lecithin",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Lecithin.jpg.jpeg",
         ins: "E322",
         functionalClass: "Emulsifier, antioxidant",
         permittedCategories: "Chocolate, biscuit, bakery products, salad dressing",
@@ -843,7 +843,7 @@ const ingredientsData = [
     },
     {
         name: "Mono and diglyceride of fatty acid",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Mono and diglyceride of fatty acid.jpg.jpeg",
         ins: "E471",
         functionalClass: "Emulsifier",
         permittedCategories: "Bakery, ice cream, margarine, cake, biscuit",
@@ -860,7 +860,7 @@ const ingredientsData = [
     },
     {
         name: "Polysorbates",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Polysorbates.jpg.jpeg",
         ins: "E433 (E434,E435,E436)",
         functionalClass: "Emulsifier",
         permittedCategories: "Ice cream, baked product",
@@ -877,7 +877,7 @@ const ingredientsData = [
     },
     {
         name: "Datem",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Datem.jpg.jpeg",
         ins: "E472e",
         functionalClass: "Emulsifier",
         permittedCategories: "Bread, cake, processed dough",
@@ -894,7 +894,7 @@ const ingredientsData = [
     },
     {
         name: "Carrageenan",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Carrageenan.jpg.jpeg",
         ins: "E407",
         functionalClass: "Emulsifier, thickener",
         permittedCategories: "Dairy products",
@@ -911,7 +911,7 @@ const ingredientsData = [
     },
     {
         name: "Guar gum",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Guar gum.jpg.jpeg",
         ins: "E412",
         functionalClass: "Emulsifier, thickener",
         permittedCategories: "Sauce, beverage, dessert",
@@ -928,7 +928,7 @@ const ingredientsData = [
     },
     {
         name: "Gum arabic",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Gum arabic.jpg.jpeg",
         ins: "E414",
         functionalClass: "Emulsifier, stabilizer",
         permittedCategories: "Confectionary beverages",
@@ -945,7 +945,7 @@ const ingredientsData = [
     },
     {
         name: "Xanthan gum",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Xanthan gum.jpeg",
         ins: "E415",
         functionalClass: "Emulsifier, thickener",
         permittedCategories: "Sauce, bakery products",
@@ -962,7 +962,7 @@ const ingredientsData = [
     },
     {
         name: "Sodium stearoyl-2 lactylate",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Sodium stearoyl-2 lactylate.jpg.jpeg",
         ins: "E481",
         functionalClass: "Emulsifier",
         permittedCategories: "Bakery products",
@@ -979,7 +979,7 @@ const ingredientsData = [
     },
     {
         name: "Glucerol monostearate",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Glucerol monostearate.jpg.jpeg",
         ins: "E471",
         functionalClass: "Emulsifier",
         permittedCategories: "Bakery products, ice cream",
@@ -996,7 +996,7 @@ const ingredientsData = [
     },
     {
         name: "Sucrose esters of fatty acids",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Sucrose esters of fatty acids.jpg.jpeg",
         ins: "E473",
         functionalClass: "Emulsifier",
         permittedCategories: "Bakery, dairy products",
@@ -1013,7 +1013,7 @@ const ingredientsData = [
     },
     {
         name: "Polyglycerol esters of fatty acids",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Polyglycerol esters of fatty acids.jpg.jpeg",
         ins: "E475",
         functionalClass: "Emulsifier",
         permittedCategories: "Chocolate, baked products",
@@ -1030,7 +1030,7 @@ const ingredientsData = [
     },
     {
         name: "Sorbitan monostearate",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Sorbitan monostearate.jpg.jpeg",
         ins: "E491",
         functionalClass: "Emulsifier",
         permittedCategories: "Bakery, confectionary",
@@ -1047,7 +1047,7 @@ const ingredientsData = [
     },
     {
         name: "Sodium Caseinates",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Sodium Caseinates.jpg.jpeg",
         ins: "E469",
         functionalClass: "Emulsifier, stabilizer",
         permittedCategories: "Dairy products, processed foods",
@@ -1064,7 +1064,7 @@ const ingredientsData = [
     },
     {
         name: "Ammonium phosphatides",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Ammonium phosphatides.jpg.jpeg",
         ins: "E442",
         functionalClass: "Emulsifier",
         permittedCategories: "Chocolate, cocoa products",
@@ -1081,7 +1081,7 @@ const ingredientsData = [
     },
     {
         name: "Hydroxypropyl methyl cellulose",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Hydroxypropyl methyl cellulose.jpg.jpeg",
         ins: "E464",
         functionalClass: "Emulsifier, thickener",
         permittedCategories: "Bakery, sauces",
@@ -1098,7 +1098,7 @@ const ingredientsData = [
     },
     {
         name: "Methyl cellulose",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Methyl cellulose.jpg.jpeg",
         ins: "E461",
         functionalClass: "Emulsifier, thickener",
         permittedCategories: "Processed foods",
@@ -1115,7 +1115,7 @@ const ingredientsData = [
     },
     {
         name: "Stearyl tartrate",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Stearyl tartrate.jpg.jpeg",
         ins: "E483",
         functionalClass: "Emulsifier",
         permittedCategories: "Bakery, dough products",
@@ -1132,7 +1132,7 @@ const ingredientsData = [
     },
     {
         name: "Gellan gum",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Gellan gum.jpg.jpeg",
         ins: "E418",
         functionalClass: "Emulsifier, stabilizer",
         permittedCategories: "Beverages",
@@ -1149,7 +1149,7 @@ const ingredientsData = [
     },
     {
         name: "Sucroglycerides",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Sucroglycerides.jpeg",
         ins: "E474",
         functionalClass: "Emulsifier",
         permittedCategories: "Bakery, confectionary",
@@ -1166,7 +1166,7 @@ const ingredientsData = [
     },
     {
         name: "Propylene glycol esters of fatty acids",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Propylene glycol esters of fatty acids.jpg.jpeg",
         ins: "E477",
         functionalClass: "Emulsifier",
         permittedCategories: "Sauce",
@@ -1183,7 +1183,7 @@ const ingredientsData = [
     },
     {
         name: "Calcium stearoyl lactylate",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Calcium stearoyl lactylate.jpg.jpeg",
         ins: "E482",
         functionalClass: "Emulsifier",
         permittedCategories: "Processed foods",
@@ -1200,7 +1200,7 @@ const ingredientsData = [
     },
     {
         name: "Polyphosphate",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Polyphosphate.jpg.jpeg",
         ins: "E452",
         functionalClass: "Emulsifier, stabilizer",
         permittedCategories: "Processed meat, seafood",
@@ -1217,7 +1217,7 @@ const ingredientsData = [
     },
     {
         name: "Polyglycerol polyricinoleate (PGPR)",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Polyglycerol polyricinoleate (PGPR).jpg.jpeg",
         ins: "E476",
         functionalClass: "Emulsifier",
         permittedCategories: "Chocolate, fat spread",
@@ -1234,7 +1234,7 @@ const ingredientsData = [
     },
     {
         name: "Propylene glycol alginate",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Propylene glycol alginate.jpg.jpeg",
         ins: "E405",
         functionalClass: "Emulsifier, stabilizer",
         permittedCategories: "Sauce, beverage, bakery",
@@ -1253,7 +1253,7 @@ const ingredientsData = [
     // --- ANTIOXIDANTS (CONT.) ---
     {
         name: "Citric acid",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Citric acid.jpg.jpeg",
         ins: "E330",
         functionalClass: "Antioxidant, Acidity regulator",
         permittedCategories: "Canned foods, beverages",
@@ -1270,7 +1270,7 @@ const ingredientsData = [
     },
     {
         name: "Propyl gallate",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Propyl gallate.jpg.jpeg",
         ins: "E310",
         functionalClass: "Antioxidant",
         permittedCategories: "Snack foods, fats, oils",
@@ -1287,7 +1287,7 @@ const ingredientsData = [
     },
     {
         name: "Ascorbyl palmitate",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Ascorbyl palmitate.jpg.jpeg",
         ins: "E304",
         functionalClass: "Antioxidant",
         permittedCategories: "Fats, oils",
@@ -1304,7 +1304,7 @@ const ingredientsData = [
     },
     {
         name: "Rosemary extract",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Rosemary extract.jpg.jpeg",
         ins: "E392",
         functionalClass: "Antioxidant",
         permittedCategories: "Vegetable Oils, margarine, meat",
@@ -1321,7 +1321,7 @@ const ingredientsData = [
     },
     {
         name: "Erythorbic acid",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Erythorbic acid.jpg.jpeg",
         ins: "E315",
         functionalClass: "Antioxidant",
         permittedCategories: "Meat, canned foods",
@@ -1338,7 +1338,7 @@ const ingredientsData = [
     },
     {
         name: "Alpha tocopherol",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Alpha tocopherol.jpg.jpeg",
         ins: "E307",
         functionalClass: "Antioxidant",
         permittedCategories: "Vegetable oil",
@@ -1355,7 +1355,7 @@ const ingredientsData = [
     },
     {
         name: "Octyl gallate",
-        image: "images/ingredients/sodium_benzoate.jpg",
+        image: "images/ingredients/Octyl gallate.jpg.jpeg",
         ins: "E311",
         functionalClass: "Antioxidant",
         permittedCategories: "Fats, oil",
